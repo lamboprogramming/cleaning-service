@@ -11,14 +11,19 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
+import Champ from '../public/Champion.png'
 
 
 
 
 export default function Home() {
   return (
+    <div className='flex justify-left'>
     
-    <div className="flex flex-col items-center ">
+       {/* <Image src={Champ} width="550" /> */}
+      
+    <div className="flex pt-4 justify-evenly">
+      {/* Nav Menu */}
       <NavigationMenu>
         <NavigationMenuList>
 
@@ -28,16 +33,16 @@ export default function Home() {
              
               <NavigationMenuContent className='flex flex-col w-full p-2 mx-auto'>
               
-              <Link href='/services' legacyBehavior passHref>
+              <Link href='/faq' legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Residential
+                FAQ
               </NavigationMenuLink>
               </Link>
               
               
               <Link href='/services' legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Corporate
+                Cleaning Services
               </NavigationMenuLink>
               </Link>
 
@@ -52,8 +57,11 @@ export default function Home() {
             
           </NavigationMenuItem>
           </NavigationMenuList>
-        </NavigationMenu>
-          
+      </NavigationMenu>
+
+      {/* Banner */}
+   
+      </div>
     </div>
 
   )
