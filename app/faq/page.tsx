@@ -12,9 +12,9 @@ import {
               {/* Recurring services? */}
 const page = () => {
   return (
-    <div className="grid grid-cols-1 text-lg md:text-xl">
-      <div className="grid p-4">
-      <h1 className='text-2xl font-bold '>FAQS</h1>
+    <div className="grid grid-cols-1 text-sm md:text-xl">
+      <div className="grid m-8">
+      <h1 className='pb-2 text-2xl font-bold '>Frequently Asked Questions</h1>
 
         {/* Item 0 */}
         <Accordion type="single" collapsible>
