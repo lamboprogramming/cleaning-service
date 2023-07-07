@@ -6,13 +6,16 @@ import Banner from '@/components/banner'
 import Features from '@/components/features'
 import Nav from '@/components/nav'
 import pic from '../public/gloves.jpg'
+import { Maven_Pro } from 'next/font/google'
+
+const mavenPro = Maven_Pro({ subsets: ['latin']})
 
 
 
 
 export default function Home() {
   return (
-    <div>
+    <div style={mavenPro.style}>
       <Nav />
 {/* Content Section */}
       <div className='grid grid-cols-3'>

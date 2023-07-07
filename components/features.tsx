@@ -18,7 +18,7 @@ const Features = () => {
         <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.</p>
         <p className='pt-4'>
         <Link legacyBehavior href="/services/service1">
-        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Learn More
+        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
         </button>
         </Link>
         </p>
@@ -31,7 +31,7 @@ const Features = () => {
         <p className="text-gray-700">Sed eu nisi ac purus dictum pulvinar. Suspendisse eget augue at dui iaculis congue. Suspendisse eget augue at.</p>
         <p className='pt-4'>
         <Link legacyBehavior href="/services/service2">
-        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Learn More
+        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
         </button>
         </Link>
         </p>
@@ -43,7 +43,7 @@ const Features = () => {
         <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.</p>
         <p className='pt-4'>
         <Link legacyBehavior href="/services/service3">
-        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Learn More
+        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
         </button>
         </Link>
         </p>
@@ -63,7 +63,7 @@ const Features = () => {
           <p className="text-gray-700">Sed eu nisi ac purus dictum pulvinar. Suspendisse eget augue at dui iaculis congue. Suspendisse eget augue at.</p>
           <p className='pt-4'>
           <Link legacyBehavior href="/services/service4">
-            <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Learn More
+            <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
             </button>
           </Link>
           </p>
@@ -76,7 +76,7 @@ const Features = () => {
           <p className="text-gray-700">Fusce eleifend arcu non dui bibendum convallis. Duis scelerisque consectetur ex, in efficitur ante aliquam nec.</p>
           <p className='pt-4'>
           <Link legacyBehavior href="/services/service5">
-            <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Learn More
+            <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
           </button>
           </Link>
           </p>
@@ -89,7 +89,7 @@ const Features = () => {
             <p className="text-gray-700">Fusce eleifend arcu non dui bibendum convallis. Duis scelerisque consectetur ex, in efficitur ante aliquam nec.</p>
             <p className='pt-4'>
             <Link legacyBehavior href="/services/service6">
-              <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Learn More
+              <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
               </button>
           </Link>
             </p>
