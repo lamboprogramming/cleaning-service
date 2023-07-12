@@ -6,38 +6,35 @@ import Banner from '@/components/banner'
 import Features from '@/components/features'
 import Nav from '@/components/nav'
 import pic from '../public/gloves.jpg'
-import { Maven_Pro } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+import Cards from '@/components/cards'
 
-const mavenPro = Maven_Pro({ subsets: ['latin']})
+const montserrat= Montserrat({ 
+  subsets: ['latin'],
+  weight: ['500'],
+})
 
 
 
 
 export default function Home() {
   return (
-    <div style={mavenPro.style}>
+    <main className={montserrat.className}>
       <Nav />
 {/* Content Section */}
-      <div className='grid grid-cols-3'>
-        <div className='col-span-2 col-start-1 m-4'>
-          <p>
-        Deep Cleaning NYC is a perfect solution when you need more thorough cleaning than usual. For example, it can be perfect when you are preparing for some Holiday or waiting for the guests. Deep cleaning after the party is a good choice as well. You will need more focused and detailed cleaning in these cases. And it will be more useful than regular or daily cleaning, too. Also, if you are not used to the regular professional cleaning at your home, it is high time to try deep cleaning NYC services. It is a great option if you have never used any cleaning services before, too.
-
-        <br/>
-        <br/>
-
-        Deep Cleaning NYC is a perfect solution when you need more thorough cleaning than usual. For example, it can be perfect when you are preparing for some Holiday or waiting for the guests. Deep cleaning after the party is a good choice as well. You will need more focused and detailed cleaning in these cases. And it will be more useful than regular or daily cleaning, too. Also, if you are not used to the regular professional cleaning at your home, it is high time to try deep cleaning NYC services. It is a great option if you have never used any cleaning services before, too.
+      <div className='grid grid-cols-3 bg-slate-100'>
+        
+        {/* <div className='grid col-span-2 col-start-1 m-4 {montserrat.className} self-center items-center justify-items-center justify-center' >
+          <p className='text-2xl leading-10 tracking-widest '>
+        <span className='text-3xl font-bold'>Champion</span> Cleaning is a perfect solution when you need more thorough cleaning than usual. For example, it can be perfect when you are preparing for some Holiday or waiting for the guests. Deep cleaning after the party is a good choice as well. 
         </p>
-        </div>
-        <div className='m-4 '>
-          <p>
-            <Image src={pic} width="300" alt="photo"/>
-          </p>
-        </div>
-      </div>
+        </div> */}
       
+      </div>
+      {/* <Features /> */}
+      <Cards/>
     
-    </div>
+    </main>
 
   )
 }
