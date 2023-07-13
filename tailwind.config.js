@@ -8,6 +8,12 @@ module.exports = {
     './src/**/*.{ts,tsx}',
 	],
   theme: {
+    extend: {
+      backgroundImage: theme => ({
+        'hero-pattern': "url('/cleaning-service/public/illustrate/janitorial-services.png')",
+        backgroundImage: ['responsive', 'hover', 'focus'],
+      })
+    },
     container: {
       center: true,
       padding: "2rem",

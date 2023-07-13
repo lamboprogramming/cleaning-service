@@ -11,8 +11,8 @@ import c6 from '../public/pool.jpg'
 
 const cards = () => {
   return (
-  <div className='flex flex-col items-center sm:flex-wrap md:justify-between sm:flex-row'>
-    <div className="p-8 space-y-8 bg-white rounded-lg shadow-md sm:flex sm:p-4 sm:space-y-0 sm:space-x-4 lg-space-x-0 ">
+  <div className='flex flex-col items-center sm:flex-wrap md:justify-between sm:flex-row sm:flex-shrink-1 sm:flex-grow-1'>
+    <div className="p-8 space-y-8 bg-white rounded-lg shadow-md sm:flex sm:p-4 sm:space-y-0 sm:space-x-4 lg-space-x-0">
       
       {/* Card 1 */}
     <div className="items-center p-2 flex-inline"> 
@@ -23,7 +23,7 @@ const cards = () => {
       </div>
     </div>
     <div className="flex-1 pt-4">
-      <h2 className="mb-2 text-xl font-bold">Standard / Deep Clean</h2>
+      <h2 className="mb-2 text-xl font-bold">Standard / Deep</h2>
       <p className="text-gray-700">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.
       </p>
@@ -44,7 +44,7 @@ const cards = () => {
       </div>
     </div>
     <div className="flex-1 pt-4">
-    <h2 className="mb-2 text-xl font-bold">Home / Commercial Clean</h2>
+    <h2 className="mb-2 text-xl font-bold">Home / Commercial</h2>
       <p className="text-gray-700">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.
       </p>

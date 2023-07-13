@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../public/Champion.png';
+import { Montserrat } from 'next/font/google';
 
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,8 +13,8 @@ const Nav = () => {
   };
 
   return (
-    <div className="bg-white shadow">
-      <div className="container flex items-center justify-between p-4 mx-auto">
+    <div className="h-16 bg-white">
+      <div className="container flex items-center justify-between p-4 mx-auto flex-shrink-1 flex-grow-1">
         <div className="flex items-center">
           <div className="mr-4">
              
@@ -22,7 +23,7 @@ const Nav = () => {
               </a> */}
             
           </div>
-          <div className="text-lg font-bold">
+          <div className="absolute text-sm font-bold text-black sm:text-lg sm:relative sm:flex ">
           <Link legacyBehavior href="/">
             Champion Cleaning Services
           </Link> 
@@ -34,14 +35,14 @@ const Nav = () => {
         <ul className="hidden py-2 sm:flex">
         <li>
               <Link legacyBehavior href="/">
-                <a className="block px-4 py-2 text-gray-800 hover:text-blue-500">
+                <a className="block px-4 py-2 text-black hover:text-blue-500">
                   Home
                 </a>
               </Link>
             </li>
           <li>
             <Link legacyBehavior href="/services">
-              <a className="block px-4 py-2 text-gray-800 hover:text-blue-500">
+              <a className="block px-4 py-2 text-black hover:text-blue-500">
                 Services
               </a>
             </Link>
@@ -69,14 +70,14 @@ const Nav = () => {
 
             <li>
               <Link legacyBehavior href="/faq">
-                <a className="block px-4 py-2 text-gray-800 hover:text-blue-500">
+                <a className="block px-4 py-2 text-black hover:text-blue-500">
                   FAQ
                 </a>
               </Link>
             </li>
             <li>
               <Link legacyBehavior href="/about">
-                <a className="block px-4 py-2 text-gray-800 hover:text-blue-500">
+                <a className="block px-4 py-2 text-black hover:text-blue-500">
                   About
                 </a>
               </Link>
@@ -84,23 +85,11 @@ const Nav = () => {
           </ul>
           {/* Nav */}
 
-          <div className="mr-4">
-            <a href="tel:+1234567890" className="text-blue-500">
-              +1 (234) 567-890
-            </a>
-          </div>
-          <div>
-            <Link legacyBehavior href="/contact">
-          <button
-            className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700"
-          >
-            Get a Quote
-          </button>
-          </Link>
-          </div>
+         
+     
           <div className="ml-4 sm:hidden">
             <button
-              className="text-gray-800 focus:outline-none"
+              className="text-white focus:outline-none"
               onClick={handleMenuToggle}
             >
               <svg
@@ -131,29 +120,43 @@ const Nav = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="bg-white md:hidden">
-          <ul className="py-2">
-            <li>
+        <div className="flex justify-center text-lg bg-black border border-black md:hidden">
+          <ul className="py-2 m-2 ">
+            <li className='hover:border hover:border-black'>
               <Link legacyBehavior href="/services">
-                <a className="block px-4 py-2 text-gray-800 hover:text-blue-500">
+                <a className="block px-4 py-2 text-black hover:text-blue-500">
                   Services
                 </a>
               </Link>
             </li>
             <li>
               <Link legacyBehavior href="/faq">
-                <a className="block px-4 py-2 text-gray-800 hover:text-blue-500">
+                <a className="block px-4 py-2 text-black hover:text-blue-500">
                   FAQ
                 </a>
               </Link>
             </li>
             <li>
               <Link legacyBehavior href="/about">
-                <a className="block px-4 py-2 text-gray-800 hover:text-blue-500">
+                <a className="block px-4 py-2 text-black hover:text-blue-500">
                   About
                 </a>
               </Link>
             </li>
+            <div>
+            <Link legacyBehavior href="/contact">
+          <button 
+            className="block px-4 py-2 text-black hover:text-blue-500"
+          >
+            Get A Quote
+          </button>
+          </Link>
+          </div>
+            <li>
+            <a href="tel:+1234567890" className="block px-4 py-2 text-blue-500">
+              +1 (234) 567-890
+            </a>
+          </li>
           </ul>
         </div>
       )}
