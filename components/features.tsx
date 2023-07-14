@@ -1,132 +1,93 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import c1 from '../public/deep.jpg'
-import c2 from '../public/bathroom.jpg'
-import c3 from '../public/gloves.jpg'
-import c4 from '../public/moving.jpg'
-import c5 from '../public/kitchen.jpg'
-import c6 from '../public/pool.jpg'
+import spray from '../public/illustrate/cleaning-spray.svg'
+import office from '../public/illustrate/office-building.svg'
+import cleaning from '../public/illustrate/cleaning.svg'
+import moving from '../public/illustrate/moving.svg'
+import outdoor from '../public/illustrate/outdoor.svg'
+import house from '../public/illustrate/house.svg'
+import materials from '../public/illustrate/cleaning-materials.svg'
+import vacuum from '../public/illustrate/vacuum.svg'
+import estate from '../public/illustrate/estate.svg'
 
 const Features = () => {
   return (
-//     <> 
-//         <div className="grid items-center grid-cols-3 gap-4 p-4 bg-yellow-200">
-//       {/* Card 1 */}
-//       <div className="p-2 bg-white rounded-lg shadow-md">
-//   <Image src={c1} alt="Service 1" className="object-fit w-full mb-4 rounded-lg h-[100%] overflow-hidden" />
-//   <h2 className="mb-2 text-xl font-bold">Standard / Deep Clean</h2>
-//   <p className="text-gray-700">
-//     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.
-//   </p>
-//   <p className="pt-4">
-//     <Link legacyBehavior href="/services/service1">
-//       <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More</button>
-//     </Link>
-//   </p>
-// </div>
 
-
-//       {/* Card 2 */}
-//       <div className="p-2 bg-white rounded-lg shadow-md ">
-//         <Image src={c2} alt="Service 2" className="object-cover w-full mb-4 rounded-lg h-[50%]" />
-//         <h2 className="mb-2 text-xl font-bold">Home / Commercial Clean</h2>
-//         <p className="text-gray-700">Sed eu nisi ac purus dictum pulvinar. Suspendisse eget augue at dui iaculis congue. Suspendisse eget augue at.</p>
-//         <p className='pt-4'>
-//         <Link legacyBehavior href="/services/service2">
-//         <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
-//         </button>
-//         </Link>
-//         </p>
-//       </div>
-//         {/* Card 3 */}
-//       <div className="p-2 bg-white rounded-lg shadow-md ">
-//         <Image src={c4} alt="Service 3" className="object-contain w-full mb-4 rounded-lg h-[100%]" />
-//         <h2 className="mb-2 text-xl font-bold">Move In / Move Out</h2>
-//         <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.</p>
-//         <p className='pt-4'>
-//         <Link legacyBehavior href="/services/service3">
-//         <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
-//         </button>
-//         </Link>
-//         </p>
-//       </div>
-
-//         </div>
-
-
-//                         {/* Col 2 */}
-        
-//         <div className="grid items-center gap-4 p-4 md:grid-cols-3">
-          
-//           {/* Card 4 */}
-//           <div className="p-2 bg-white rounded-lg shadow-md ">
-//           <Image src={c5} alt="Service 4" className="object-contain w-full mb-4 rounded-lg h-[100%]" />
-//           <h2 className="mb-2 text-xl font-bold">Airbnb / Rental Properties</h2>
-//           <p className="text-gray-700">Sed eu nisi ac purus dictum pulvinar. Suspendisse eget augue at dui iaculis congue. Suspendisse eget augue at.</p>
-//           <p className='pt-4'>
-//           <Link legacyBehavior href="/services/service4">
-//             <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
-//             </button>
-//           </Link>
-//           </p>
-//         </div>
-               
-//             {/* Card 5 */}
-//         <div className="p-2 bg-white rounded-lg shadow-md ">
-//           <Image src={c6} alt="Service 5" className="object-contain w-full mb-4 rounded-lg h-[100%]" />
-//           <h2 className="mb-2 text-xl font-bold">Outdoor / Patio</h2>
-//           <p className="text-gray-700">Fusce eleifend arcu non dui bibendum convallis. Duis scelerisque consectetur ex, in efficitur ante aliquam nec.</p>
-//           <p className='pt-4'>
-//           <Link legacyBehavior href="/services/service5">
-//             <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
-//           </button>
-//           </Link>
-//           </p>
-//         </div>
-
-//             {/* Card 6 */}
-//           <div className="p-2 bg-white rounded-lg shadow-md ">
-//             <Image src={c3} alt="Service 6" className="object-contain w-full mb-4 rounded-lg h-[100%]" />
-//             <h2 className="mb-2 text-xl font-bold">Recurring / One Time</h2>
-//             <p className="text-gray-700">Fusce eleifend arcu non dui bibendum convallis. Duis scelerisque consectetur ex, in efficitur ante aliquam nec.</p>
-//             <p className='pt-4'>
-//             <Link legacyBehavior href="/services/service6">
-//               <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
-//               </button>
-//           </Link>
-//             </p>
-//         </div>
-        
-       
-   
-
-//       {/* Card 5 */}
-
-//       </div>
-
+<div className='container flex mt-8 bg-yellow-200'>
+  <div className='flex flex-wrap items-start justify-evenly'>
+    
+    {/* Div 1*/}
+  <div className='flex h-[200px] w-[300px] p-2 shadow-lg m-2 justify-center '>
+    <Link legacyBehavior href="/services/service1">
+    <p className='flex flex-col items-center cursor-pointer'>
+      <Image src={materials} className='h-[65%] mb-2' alt="/"  />
+      <span className='text-lg font-bold text-blue-900'>Standard Deep </span>
+      <span className='text-lg font-bold text-blue-900'>Cleaning</span>
+    </p>
+    </Link>
+  </div>
   
-
- 
-
-//     </>
-
-<div>
-    <div className="container">
-      <div className='grid items-center grid-cols-1 gap-4 lg:grid-rows-2 md:grid-cols-3 '>
-        <div className='h-[200px]'>Content for Div 1</div>
-
-
-        
-        <div className='h-[200px]'>Content for Div 2</div>
-        <div className='h-[200px]'>Content for Div 3</div>
-        <div className='h-[200px]'>Content for Div 1</div>
-        <div className='h-[200px]'>Content for Div 2</div>
-        <div className='h-[200px]'>Content for Div 3</div>
-      </div>
-    </div>
+    {/* Div 2*/}
+  <div className='flex h-[200px] w-[300px] p-2 shadow-lg m-2 justify-center '>
+  <Link legacyBehavior href="/services/service2">
+    <p className='flex flex-col items-center cursor-pointer '>
+      <Image src={estate} className='h-[65%] mb-2' alt="/"  />
+      <span className='text-lg font-bold text-blue-900 '>Home & </span>
+      <span className='text-lg font-bold text-blue-900'>Commercial Cleaning</span>
+    </p>
+    </Link>
+  </div>
   
+    {/* Div 3*/}
+  <div className='flex h-[200px] w-[300px] p-2 shadow-lg m-2 justify-center '>
+  <Link legacyBehavior href="/services/service3">
+    <p className='flex flex-col items-center cursor-pointer '>
+      <Image src={moving} className='h-[65%] mb-2' alt="/"  />
+      <span className='text-lg font-bold text-blue-900'>Relocation</span>
+      <span className='text-lg font-bold text-blue-900'>Cleaning</span>
+    </p>
+    </Link>
+  </div>
+    {/* Div 4*/}
+  <div className='flex h-[200px] w-[300px] p-2 shadow-lg m-2 justify-center '>
+  <Link legacyBehavior href="/services/service4">
+    <p className='flex flex-col items-center cursor-pointer'>
+      <Image src={office} className='h-[65%] mb-2' alt="/"  />
+      <span className='text-lg font-bold text-blue-900'>Rental</span>
+      <span className='text-lg font-bold text-blue-900'>Property Cleaning</span>
+    </p>
+    </Link>
+  </div>
+  
+    {/* Div 5*/}
+  <div className='flex h-[200px] w-[300px] p-2 shadow-lg m-2 justify-center '>
+  <Link legacyBehavior href="/services/service5">
+    <p className='flex flex-col items-center cursor-pointer'>
+      <Image src={outdoor} className='h-[65%] mb-2' alt="/"  />
+      <span className='text-lg font-bold text-blue-900'>Outdoor & </span>
+      <span className='text-lg font-bold text-blue-900'>Patio Cleaning</span>
+    </p>
+    </Link>
+  </div>
+    {/* Div 6*/}
+  <div className='flex h-[200px] w-[300px] p-2 shadow-lg m-2 justify-center '>
+  <Link legacyBehavior href="/services/service6">
+    <p className='flex flex-col items-center cursor-pointer'>
+      <Image src={vacuum} className='h-[65%] mb-2' alt="/" />
+      <span className='text-lg font-bold text-blue-900'>Miscellaneous / </span>
+      <span className='text-lg font-bold text-blue-900'>One Time Cleaning</span>
+    </p>
+    </Link>
+  </div>
+
+
+
+
+
+
+
+  </div>
 </div>
-
   );
 };
 

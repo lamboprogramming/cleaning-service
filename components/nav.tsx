@@ -48,22 +48,22 @@ const Nav = () => {
             </Link>
         <ul className="dropdown-menu">
           <li>
-            <a href="/services/service1">Standard/Deep Clean 🧼🧽</a>
+            <a href="/services/service1">Standard Cleaning 🧼🧽</a>
           </li>
           <li>
-            <a href="/services/service2">Home/Commercial 🏡🏢</a>
+            <a href="/services/service2">Home / Commercial 🏡🏢</a>
           </li>
           <li>
-            <a href="/services/service3">Move In/Move Out 🚚📦</a>
+            <a href="/services/service3">Relocation Cleaing 🚚📦</a>
           </li>
           <li>
-            <a href="/services/service4">AirBnB/Rental Properties 🏖️</a>
+            <a href="/services/service4">Rental Property 🏖️</a>
           </li>
           <li>
-            <a href="/services/service5">Outdoor/Patio 🍂🌳</a>
+            <a href="/services/service5">Outdoor / Patio 🍂🌳</a>
           </li>
           <li>
-            <a href="/services/service6">Recurring/One Time 🔂</a>
+            <a href="/services/service6">Miscellaneous / One Time 🔂</a>
           </li>
         </ul>
           </li>
