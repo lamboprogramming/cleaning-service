@@ -13,7 +13,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="h-16 bg-white">
+    <div className="h-16 font-sans bg-white">
       <div className="container flex items-center justify-between p-4 mx-auto flex-shrink-1 flex-grow-1">
         <div className="flex items-center">
           <div className="mr-4">
@@ -30,9 +30,9 @@ const Nav = () => {
           </div>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center ">
           {/* Nav */}
-        <ul className="hidden py-2 sm:flex">
+        <ul className="hidden py-2 font-bold sm:flex">
         <li>
               <Link legacyBehavior href="/">
                 <a className="block px-4 py-2 text-black hover:text-blue-500">
@@ -86,10 +86,10 @@ const Nav = () => {
           {/* Nav */}
 
          
-     
+     {/* hamburger */}
           <div className="ml-4 sm:hidden">
             <button
-              className="text-white focus:outline-none"
+              className="text-black focus:outline-none"
               onClick={handleMenuToggle}
             >
               <svg
@@ -120,9 +120,9 @@ const Nav = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="flex justify-center text-lg bg-black border border-black md:hidden">
+        <div className="flex justify-center text-lg border md:hidden">
           <ul className="py-2 m-2 ">
-            <li className='hover:border hover:border-black'>
+            <li className=''>
               <Link legacyBehavior href="/services">
                 <a className="block px-4 py-2 text-black hover:text-blue-500">
                   Services

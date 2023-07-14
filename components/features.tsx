@@ -13,7 +13,7 @@ import estate from '../public/illustrate/estate.svg'
 const Features = () => {
   return (
 
-<div className='container flex mt-8 bg-yellow-200'>
+<div className='container flex mt-8 font-sans tracking-wide bg-blue-200'>
   <div className='flex flex-wrap items-start justify-evenly'>
     
     {/* Div 1*/}
@@ -21,8 +21,8 @@ const Features = () => {
     <Link legacyBehavior href="/services/service1">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={materials} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-blue-900'>Standard Deep </span>
-      <span className='text-lg font-bold text-blue-900'>Cleaning</span>
+      <span className='text-lg font-bold text-black'>Standard Deep </span>
+      <span className='text-lg font-bold text-black'>Cleaning</span>
     </p>
     </Link>
   </div>
@@ -32,8 +32,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service2">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={estate} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-blue-900 '>Home & </span>
-      <span className='text-lg font-bold text-blue-900'>Commercial Cleaning</span>
+      <span className='text-lg font-bold text-black '>Home & </span>
+      <span className='text-lg font-bold text-black'>Commercial Cleaning</span>
     </p>
     </Link>
   </div>
@@ -43,8 +43,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service3">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={moving} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-blue-900'>Relocation</span>
-      <span className='text-lg font-bold text-blue-900'>Cleaning</span>
+      <span className='text-lg font-bold text-black'>Relocation</span>
+      <span className='text-lg font-bold text-black'>Cleaning</span>
     </p>
     </Link>
   </div>
@@ -53,8 +53,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service4">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={office} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-blue-900'>Rental</span>
-      <span className='text-lg font-bold text-blue-900'>Property Cleaning</span>
+      <span className='text-lg font-bold text-black'>Rental</span>
+      <span className='text-lg font-bold text-black'>Property Cleaning</span>
     </p>
     </Link>
   </div>
@@ -64,8 +64,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service5">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={outdoor} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-blue-900'>Outdoor & </span>
-      <span className='text-lg font-bold text-blue-900'>Patio Cleaning</span>
+      <span className='text-lg font-bold text-black'>Outdoor & </span>
+      <span className='text-lg font-bold text-black'>Patio Cleaning</span>
     </p>
     </Link>
   </div>
@@ -74,8 +74,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service6">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={vacuum} className='h-[65%] mb-2' alt="/" />
-      <span className='text-lg font-bold text-blue-900'>Miscellaneous / </span>
-      <span className='text-lg font-bold text-blue-900'>One Time Cleaning</span>
+      <span className='text-lg font-bold text-black'>Miscellaneous / </span>
+      <span className='text-lg font-bold text-black'>One Time Cleaning</span>
     </p>
     </Link>
   </div>
