@@ -102,14 +102,6 @@ li:hover .dropdown-menu {
   display: block;
 }
 
-ul.list-disc {
-  list-style-type: none;
-  padding-left: 1em;
-}
 
-ul.list-disc li:before {
-  content: '\2713'; /* Unicode value for check mark symbol */
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
+
+

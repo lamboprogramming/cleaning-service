@@ -4,9 +4,10 @@ import Nav from '@/components/nav';
 
 const page = () => {
   return (
-    <div className='pt-8'>
+    <div className=''>
       <Nav />
       <Features />
+      
     </div>
   );
 }

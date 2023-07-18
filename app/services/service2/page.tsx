@@ -2,7 +2,7 @@ import React from 'react';
 
 const page = () => {
   return (
-    <div>
+    <div className='h-[50%] pattern'>
       Service 2 Home & Commercial
     </div>
   );

@@ -44,10 +44,9 @@ const cards = () => {
       </div>
     </div>
     <div className="flex-1 pt-4">
-    <h2 className="mb-2 text-xl font-bold">Home / Commercial</h2>
-      <p className="text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.
-      </p>
+    <h2 className="mb-2 text-xl font-bold ">Home / Commercial</h2>
+    <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.</p>
+ 
       <p className='pt-4'>
         <Link legacyBehavior href="/services/service2">
         <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More

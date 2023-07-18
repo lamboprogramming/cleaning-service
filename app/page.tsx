@@ -10,33 +10,31 @@ import { Montserrat } from 'next/font/google'
 import Cards from '@/components/cards'
 import Bg from '@/components/bg'
 
-const montserrat= Montserrat({ 
-  subsets: ['latin'],
-  weight: ['500'],
-})
+
 
 
 
 
 export default function Home() {
   return (
-    <>
+    <div className="">
     <nav>
       <Nav />
     </nav>
-    <main className={montserrat.className}>
+    <main>
       
 {/* Content Section */}
       {/* <Bg /> */}
         
        
       
-      
+      <div className="">
       <Features />
-      {/* <Cards/> */}
+      </div>
+      <Cards/>
     
     </main>
-    </>
+    </div>
   )
  
 }

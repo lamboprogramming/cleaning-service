@@ -13,17 +13,17 @@ const Nav = () => {
   };
 
   return (
-    <div className="h-16 font-sans bg-white">
+    <div className="h-16 font-mono bg-white">
       <div className="container flex items-center justify-between p-4 mx-auto flex-shrink-1 flex-grow-1">
         <div className="flex items-center">
-          <div className="mr-4">
+          <div className="">
              
               {/* <a>
                 <Image src={logo} alt="Logo" width={} />
               </a> */}
             
           </div>
-          <div className="absolute text-sm font-bold text-black sm:text-lg sm:relative sm:flex ">
+          <div className="text-lg font-bold tracking-wide text-black sm:relative sm:flex ">
           <Link legacyBehavior href="/">
             Champion Cleaning Services
           </Link> 
@@ -32,7 +32,7 @@ const Nav = () => {
 
         <div className="flex items-center ">
           {/* Nav */}
-        <ul className="hidden py-2 font-bold sm:flex">
+        <ul className="hidden py-2 font-bold tracking-wide sm:flex">
         <li>
               <Link legacyBehavior href="/">
                 <a className="block px-4 py-2 text-black hover:text-blue-500">
