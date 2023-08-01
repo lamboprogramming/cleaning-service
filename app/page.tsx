@@ -9,6 +9,8 @@ import pic from '../public/gloves.jpg'
 import { Montserrat } from 'next/font/google'
 import Cards from '@/components/cards'
 import Bg from '@/components/bg'
+import Mobile from '@/components/mobile'
+import Footer from '@/components/footer'
 
 
 
@@ -18,19 +20,19 @@ import Bg from '@/components/bg'
 export default function Home() {
   return (
     <div className='container'>
-      {/* Navbar */}
       <Nav />
       
       {/* Hero Section */}
       <Bg />
 
-      {/* Features */}
+      {/* Mobile */}
+      <Mobile />
      
        
       
- 
-      {/* <Features />
-      <Cards/> */}
+  
+     <Footer />
+  
     
     </div>
   )

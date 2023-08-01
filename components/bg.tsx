@@ -48,17 +48,7 @@ const bg = () => {
       {/* Stats */}
     <Stats />
     
-
-
-
-
- 
-
     
-  
-      
-      
-    <Footer />
     </div>
   );
 }

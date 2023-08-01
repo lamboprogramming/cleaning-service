@@ -15,7 +15,7 @@ const Nav = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
-        <a href="https://flowbite.com/" className="flex items-center">
+        <a href="/" className="flex items-center">
           <Image
             src={"https://flowbite.com/docs/images/logo.svg"}
             className="h-8 mr-3"
