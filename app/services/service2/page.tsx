@@ -1,11 +1,17 @@
 import React from 'react';
+import Nav from '@/components/nav';
+
+
+
 
 const page = () => {
   return (
+    <>
+    <Nav/>
     <div className="container">
     {/* GRID #1 */}
     
-    <div className="grid gap-4 p-4 leading-8 tracking-wide lg:grid-cols-4">
+    <div className="grid gap-4 p-4 leading-8 tracking-wide lg:grid-cols-2">
       {/* STANDARD/DEEP */}
       <div className="p-4 bg-white rounded-lg shadow-md">
         <h2 className="mb-4 text-xl font-semibold">Standard Deep Clean</h2>
@@ -60,7 +66,7 @@ const page = () => {
 
     {/* GRID # 2 */}
     
-    <div className="grid gap-4 p-4 leading-8 tracking-wide lg:grid-cols-4">
+    <div className="grid gap-4 p-4 leading-8 tracking-wide lg:grid-cols-2">
       {/* RELOCATION*/}
       <div className="p-4 bg-white rounded-lg shadow-md">
         <h2 className="mb-4 text-xl font-semibold">Relocation Cleaning</h2>
@@ -114,6 +120,7 @@ const page = () => {
   
     </div>
     </div>
+    </>
   );
 }
 

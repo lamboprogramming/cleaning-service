@@ -6,161 +6,103 @@ import logo from '../public/Champion.png';
 import { Montserrat } from 'next/font/google';
 
 const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
 
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
   };
 
   return (
-    <div className="h-16 font-mono bg-white">
-      <div className="container flex items-center justify-between p-4 mx-auto flex-shrink-1 flex-grow-1">
-        <div className="flex items-center">
-          <div className="">
-             
-              {/* <a>
-                <Image src={logo} alt="Logo" width={} />
-              </a> */}
-            
-          </div>
-          <div className="text-lg font-bold tracking-wide text-black sm:relative sm:flex ">
-          <Link legacyBehavior href="/">
-            Champion Cleaning Services
-          </Link> 
-          </div>
-        </div>
-
-        <div className="flex items-center ">
-          {/* Nav */}
-        <ul className="hidden py-2 font-bold tracking-wide sm:flex">
-        <li>
-              <Link legacyBehavior href="/">
-                <a className="block px-4 py-2 text-black hover:text-blue-500">
-                  Home
-                </a>
+    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
+        <a href="https://flowbite.com/" className="flex items-center">
+          <Image
+            src={"https://flowbite.com/docs/images/logo.svg"}
+            className="h-8 mr-3"
+            width="100"
+            height="100"
+            alt="Flowbite Logo"
+          />
+          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            Champion Cleaning
+          </span>
+        </a>
+        <button
+          onClick={toggleNav}
+          type="button"
+          className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded={isNavOpen}
+        >
+          <span className="sr-only">Open main menu</span>
+          <svg
+            className="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div
+          className={`${
+            isNavOpen ? 'block' : 'hidden'
+          } w-full md:block md:w-auto`}
+          id="navbar-default"
+        >
+          <ul className="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <Link
+                href='/'
+                className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+              >
+                Home
               </Link>
             </li>
-          <li>
-            <Link legacyBehavior href="/services">
-              <a className="block px-4 py-2 text-black hover:text-blue-500">
+            <li>
+              <Link
+                href="/faq"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                FAQ
+              </Link>
+            </li>
+            <li>
+              <a
+                href="/services"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
                 Services
               </a>
-            </Link>
-        <ul className="dropdown-menu">
-          <li>
-            <a href="/services/service1">Standard Cleaning 🧼🧽</a>
-          </li>
-          <li>
-            <a href="/services/service2">Home / Commercial 🏡🏢</a>
-          </li>
-          <li>
-            <a href="/services/service3">Relocation Cleaing 🚚📦</a>
-          </li>
-          <li>
-            <a href="/services/service4">Rental Property 🏖️</a>
-          </li>
-          <li>
-            <a href="/services/service5">Outdoor / Patio 🍂🌳</a>
-          </li>
-          <li>
-            <a href="/services/service6">Miscellaneous / One Time 🔂</a>
-          </li>
-        </ul>
-          </li>
-
-            <li>
-              <Link legacyBehavior href="/faq">
-                <a className="block px-4 py-2 text-black hover:text-blue-500">
-                  FAQ
-                </a>
-              </Link>
             </li>
             <li>
-              <Link legacyBehavior href="/about">
-                <a className="block px-4 py-2 text-black hover:text-blue-500">
-                  About
-                </a>
-              </Link>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              >
+                Contact
+              </a>
             </li>
           </ul>
-          {/* Nav */}
-
-         
-     {/* hamburger */}
-          <div className="ml-4 sm:hidden">
-            <button
-              className="text-black focus:outline-none"
-              onClick={handleMenuToggle}
-            >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                {isMenuOpen ? (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                ) : (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
-                )}
-              </svg>
-            </button>
-          </div>
         </div>
       </div>
-
-      {isMenuOpen && (
-        <div className="flex justify-center text-lg border md:hidden">
-          <ul className="py-2 m-2 ">
-            <li className=''>
-              <Link legacyBehavior href="/services">
-                <a className="block px-4 py-2 text-black hover:text-blue-500">
-                  Services
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/faq">
-                <a className="block px-4 py-2 text-black hover:text-blue-500">
-                  FAQ
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link legacyBehavior href="/about">
-                <a className="block px-4 py-2 text-black hover:text-blue-500">
-                  About
-                </a>
-              </Link>
-            </li>
-            <div>
-            <Link legacyBehavior href="/contact">
-          <button 
-            className="block px-4 py-2 text-black hover:text-blue-500"
-          >
-            Get A Quote
-          </button>
-          </Link>
-          </div>
-            <li>
-            <a href="tel:+1234567890" className="block px-4 py-2 text-blue-500">
-              +1 (234) 567-890
-            </a>
-          </li>
-          </ul>
-        </div>
-      )}
-    </div>
+    </nav>
   );
 };
 

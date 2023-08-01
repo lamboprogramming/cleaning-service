@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import Link from 'next/link'
-import Champ from '@Champion.png'
+import Champ from '../public/clean3.jpg'
 import Banner from '@/components/banner'
 import Features from '@/components/features'
 import Nav from '@/components/nav'
@@ -17,23 +17,21 @@ import Bg from '@/components/bg'
 
 export default function Home() {
   return (
-    <div className="">
-    <nav>
+    <div className='container'>
+      {/* Navbar */}
       <Nav />
-    </nav>
-    <main>
       
-{/* Content Section */}
-      {/* <Bg /> */}
-        
+      {/* Hero Section */}
+      <Bg />
+
+      {/* Features */}
+     
        
       
-      <div className="">
-      <Features />
-      </div>
-      <Cards/>
+ 
+      {/* <Features />
+      <Cards/> */}
     
-    </main>
     </div>
   )
  
