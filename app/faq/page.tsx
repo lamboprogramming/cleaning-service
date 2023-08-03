@@ -6,6 +6,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import Nav from '@/components/nav';
+import Footer from '@/components/footer';
 
  {/* Standard Clean, Vacation Rental, Airbnb, Vrbo */}
               {/* General Cleaning, Deep cleaning, Carpet, Office, Tile */}
@@ -15,7 +16,7 @@ const page = () => {
   return (
     <>
     <Nav/>
-    <div className="grid grid-cols-1 text-sm md:text-xl">
+    <div className="container grid grid-cols-1 text-sm md:text-xl">
       <div className="grid m-8">
       <h1 className='pb-2 text-2xl font-bold '>Frequently Asked Questions</h1>
 
@@ -156,6 +157,7 @@ const page = () => {
         </div>
 
     </div>
+    <Footer />
     </>
   );
 }
