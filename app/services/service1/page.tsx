@@ -18,9 +18,9 @@ const page = () => {
         {/* Hero for explanation */}
         
    
-        <ul className="pl-6 leading-8 sm:leading-10  list-disc list-outside text-[15px] sm:text-[18px]">
+        <ul className="pl-6 leading-9 sm:leading-10  list-disc list-outside text-[15px] sm:text-[18px]">
           {/* General */}
-        <h3 className="text-2xl font-bold text-blue-500 dark:text-white">General Cleaning For All Areas:</h3>
+        <h3 className="mb-2 text-2xl font-bold text-blue-500 dark:text-white">General Cleaning For All Areas:</h3>
           
           <li>Dry floor cleaning using a vacuum cleaner and broom.</li>
           <li>Wet cleaning of floors, baseboards, and window sills.</li>
@@ -30,7 +30,7 @@ const page = () => {
           <li>Taking out the trash, washing waste baskets, and storage spaces.</li>
 
           {/* Kitchen */}
-          <h3 className="mt-8 text-2xl font-bold text-blue-500 dark:text-white">Kitchen checklist:</h3>
+          <h3 className="mt-8 mb-2 text-2xl font-bold text-blue-500 dark:text-white">Kitchen checklist:</h3>
 
           <li>Washing dishes by hand or dishwasher (duration may vary based upon the number of dishes).Please avoid leaving expensive or fragile dishes for us to clean.</li>
           <li>Washing the refrigerator inside and outside, including the freezer.</li>
@@ -43,7 +43,7 @@ const page = () => {
           <li>Wiping down the windowsills.</li>
           
           {/* Bathroom */}
-          <h3 className="mt-8 text-2xl font-bold text-blue-500 dark:text-white">Bathroom checklist:</h3>
+          <h3 className="mt-8 mb-2 text-2xl font-bold text-blue-500 dark:text-white">Bathroom checklist:</h3>
 
           <li>Deep cleaning of shower/bathtub.</li>
           <li>Deep cleaning and disinfection of faucets, sinks, and toilets.</li>
@@ -54,7 +54,7 @@ const page = () => {
           <li>Diligent attempt to remove soap scum and hard water deposits</li>
           
           {/* Bathroom */}
-          <h3 className="mt-2 text-2xl font-bold text-blue-500 dark:text-white">Sleeping and Living area checklist:</h3>
+          <h3 className="mt-8 mb-2 text-2xl font-bold text-blue-500 dark:text-white">Sleeping and Living area checklist:</h3>
 
           <li>Wiping down window sills and ledges.</li>
           <li>Furniture surfaces dusted and cleaned.</li>
