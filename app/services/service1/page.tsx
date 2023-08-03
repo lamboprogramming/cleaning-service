@@ -18,7 +18,7 @@ const page = () => {
         {/* Hero for explanation */}
         
    
-        <ul className="pl-6 leading-10  list-disc list-outside text-[15px] sm:text-[18px]">
+        <ul className="pl-6 leading-8 sm:leading-10  list-disc list-outside text-[15px] sm:text-[18px]">
           {/* General */}
         <h3 className="text-2xl font-bold text-blue-500 dark:text-white">General Cleaning For All Areas:</h3>
           
@@ -30,7 +30,7 @@ const page = () => {
           <li>Taking out the trash, washing waste baskets, and storage spaces.</li>
 
           {/* Kitchen */}
-          <h3 className="mt-2 text-2xl font-bold text-blue-500 dark:text-white">Cleaning in the kitchen:</h3>
+          <h3 className="mt-8 text-2xl font-bold text-blue-500 dark:text-white">Kitchen checklist:</h3>
 
           <li>Washing dishes by hand or dishwasher (duration may vary based upon the number of dishes).Please avoid leaving expensive or fragile dishes for us to clean.</li>
           <li>Washing the refrigerator inside and outside, including the freezer.</li>
@@ -43,14 +43,26 @@ const page = () => {
           <li>Wiping down the windowsills.</li>
           
           {/* Bathroom */}
-          <h3 className="mt-2 text-2xl font-bold text-blue-500 dark:text-white">Cleaning in the bathroom:</h3>
+          <h3 className="mt-8 text-2xl font-bold text-blue-500 dark:text-white">Bathroom checklist:</h3>
 
           <li>Deep cleaning of shower/bathtub.</li>
           <li>Deep cleaning and disinfection of faucets, sinks, and toilets.</li>
-          <li>Wiping down mirrors.</li>
+          <li>Wiping down mirrors and cabinets.</li>
+          <li>Doors and door frames hand wiped.</li>
+          <li>Emptying trash and washing the trash can.</li>
+          <li>Cleaning and wiping down wall and floor tiles.</li>
+          <li>Diligent attempt to remove soap scum and hard water deposits</li>
+          
+          {/* Bathroom */}
+          <h3 className="mt-2 text-2xl font-bold text-blue-500 dark:text-white">Sleeping and Living area checklist:</h3>
+
+          <li>Wiping down window sills and ledges.</li>
+          <li>Furniture surfaces dusted and cleaned.</li>
+          <li>floors and upholstery vacuumed and given extra attention.</li>
           <li>Wiping down cabinets.</li>
           <li>Emptying trash and washing the trash can.</li>
           <li>Cleaning and wiping down wall and floor tiles.</li>
+          <p className='text-sm text-semibold'>*Higher items will only be dusted w/ an extension duster. We cannot move furniture, but we will try to reach any visible places either by hand or with an extension duster. It is presumed that the home will be in order and somewhat picked up to facilitate the cleaning.*</p>
           
           
         </ul>

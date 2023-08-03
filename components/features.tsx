@@ -21,7 +21,7 @@ const Features = () => {
     <Link legacyBehavior href="/services/service1">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={materials} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black'>Standard Deep </span>
+      <span className='text-lg font-bold text-black'>Deep </span>
       <span className='text-lg font-bold text-black'>Cleaning</span>
     </p>
     </Link>
