@@ -11,7 +11,7 @@ import Cards from '@/components/cards'
 import Bg from '@/components/bg'
 import Mobile from '@/components/mobile'
 import Footer from '@/components/footer'
-
+import Testimonials from '@/components/testimonials'
 
 
 
@@ -24,6 +24,8 @@ export default function Home() {
       
       {/* Hero Section */}
       <Bg />
+      <Features />
+      <Testimonials />
 
       {/* Mobile */}
       <Mobile />

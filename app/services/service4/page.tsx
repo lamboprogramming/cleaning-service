@@ -1,10 +1,14 @@
 import React from 'react';
+import Mobile from '@/components/mobile';
 
 const page = () => {
   return (
+    <>
     <div>
-      Service # 4 Airbnb Rental Props
+      4th service
     </div>
+    <Mobile />
+    </>
   );
 }
 

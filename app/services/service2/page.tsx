@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from '@/components/nav';
 import Link from 'next/link';
+import Mobile from '@/components/mobile';
 
 
 
@@ -14,7 +15,7 @@ const page = () => {
     {/* Content Start */}
     <div className="grid gap-4 p-4 leading-8 tracking-wide ">
 
-    <h1 className="flex items-center text-6xl font-extrabold dark:text-white">Deep Cleaning</h1>
+    <h1 className="flex items-center text-6xl font-extrabold dark:text-white">Home / Commercial</h1>
 
       {/* STANDARD/DEEP */}
       <div className="p-4 bg-white rounded-lg shadow-md ">
@@ -126,6 +127,7 @@ const page = () => {
    
     </div>
     </div>
+    <Mobile />
     </>
   );
 }

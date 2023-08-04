@@ -1,7 +1,8 @@
 import React from 'react';
-
+import Mobile from '@/components/mobile';
 const page = () => {
   return (
+    <>
     <div className="grid gap-4 p-4 leading-8 tracking-wide lg:grid-cols-4">
     {/* Area 1 */}
     <div className="p-4 bg-white rounded-lg shadow-md">
@@ -54,7 +55,9 @@ const page = () => {
     </ul>
   </div>
 
-  </div>
+    </div>
+    <Mobile />
+    </>
   );
 }
 

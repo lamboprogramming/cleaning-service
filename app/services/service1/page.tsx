@@ -1,5 +1,6 @@
 import React from 'react';
 import Nav from '@/components/nav'
+import Mobile from '@/components/mobile';
 
 const page = () => {
   return (
@@ -80,6 +81,7 @@ const page = () => {
    
     </div>
     </div>
+    <Mobile />
     </>
   
   );
