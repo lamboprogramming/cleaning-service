@@ -12,6 +12,7 @@ import Bg from '@/components/bg'
 import Mobile from '@/components/mobile'
 import Footer from '@/components/footer'
 import Testimonials from '@/components/testimonials'
+import Header from '@/components/header'
 
 
 
@@ -19,12 +20,13 @@ import Testimonials from '@/components/testimonials'
 
 export default function Home() {
   return (
-    <div className='container'>
-      <Nav />
+    <>
+    <Nav />
+    <div className='bg-yellow-50'>
+      
       
       {/* Hero Section */}
       <Bg />
-      <Features />
       <Testimonials />
 
       {/* Mobile */}
@@ -37,6 +39,7 @@ export default function Home() {
   
     
     </div>
+    </>
   )
  
 }
