@@ -36,7 +36,7 @@ const Features = () => {
   <Link legacyBehavior href="/services/service2">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={estate} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black '>Home & </span>
+      <span className='text-lg font-bold text-black '>Residential & </span>
       <span className='text-lg font-bold text-black'>Commercial Cleaning</span>
     </p>
     </Link>
