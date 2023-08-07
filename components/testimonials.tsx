@@ -10,7 +10,7 @@ const testimonials = () => {
   
   <div className='flex flex-col'>
 {/* First Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">Shellie R.</cite>
     </div>
@@ -46,7 +46,7 @@ const testimonials = () => {
 </figure>
   
 {/* Second Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">Emily B.</cite>
     </div>
@@ -82,7 +82,7 @@ const testimonials = () => {
 </figure>
   
 {/* Third Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">James B.</cite>
     </div>
@@ -118,7 +118,7 @@ const testimonials = () => {
 </figure>
 
 {/* Fourth Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">Shelley F.</cite>
     </div>
@@ -154,7 +154,7 @@ const testimonials = () => {
 </figure>
 
   {/* Fifth Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">Lori S.</cite>
     </div>
@@ -190,7 +190,7 @@ const testimonials = () => {
 </figure>
   
   {/* Sixth Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">Lauren B.</cite>
     </div>
@@ -226,7 +226,7 @@ const testimonials = () => {
 </figure>
   
   {/* Seventh Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">Joshua A.</cite>
     </div>
@@ -262,7 +262,7 @@ const testimonials = () => {
 </figure>
   
   {/* Eighth Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">Katie S.</cite>
     </div>
@@ -297,7 +297,7 @@ const testimonials = () => {
     </figcaption>
 </figure>
   {/* Ninth Testimonial */}
-<figure className="max-w-screen-md mt-12 ">
+<figure className="max-w-screen-md mt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg font-medium">Kaitlan G.</cite>
     </div>
