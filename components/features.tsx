@@ -46,7 +46,7 @@ const Features = () => {
   <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-100 rounded-xl '>
   <Link legacyBehavior href="/services/service3">
     <p className='flex flex-col items-center cursor-pointer '>
-      <Image src={moving} className='h-[65%] mb-2' alt="/"  />
+      <Image src={moving} className='h-[65%] w-full mb-2' alt="/"  />
       <span className='text-lg font-bold text-black'>Move In / Move Out</span>
       <span className='text-lg font-bold text-black'>Clean</span>
     </p>

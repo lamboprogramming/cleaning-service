@@ -16,13 +16,13 @@ const Nav = () => {
     <nav className="bg-white border-gray-200">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
         <a href="/" className="flex items-center">
-          <Image
+          {/* <Image
             src={"https://flowbite.com/docs/images/logo.svg"}
             className="h-8 mr-3"
             width="100"
             height="100"
             alt="Flowbite Logo"
-          />
+          /> */}
           <span className="self-center text-xl font-semibold text-black whitespace-nowrap">
             Champion Cleaning
           </span>
