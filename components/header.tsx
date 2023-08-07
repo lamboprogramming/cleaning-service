@@ -5,7 +5,7 @@ const header = () => {
   return (
     <div>
         {/* Heading */}
-        <section className="bg-green-50">
+        <section className="bg-green-100">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
         <div className="max-w-screen-lg text-gray-500 sm:text-lg ">
           <h2 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Top notch services that leave you feeling like a true champion</h2>

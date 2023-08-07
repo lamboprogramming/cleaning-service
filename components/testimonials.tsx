@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const testimonials = () => {
   return (
-<div className='container flex flex-col items-center mb-6 bg-yellow-50'>
+<div className='container flex flex-col items-center mb-6 bg-white'>
   
   <div className='flex flex-col'>
     

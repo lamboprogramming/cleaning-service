@@ -22,20 +22,21 @@ export default function Home() {
   return (
     <>
     <Nav />
-    <div className='bg-yellow-50'>
+    <div className='bg-white'>
       
       
       {/* Hero Section */}
       <Bg />
+      <div className='lg:hidden'>
+      <div className=" lg:mt-0 lg:col-span-5 lg:flex">
+            <Image src={Champ} className='w-full '  alt="mockup"/>
+        </div>  
+        </div>
       <Testimonials />
-
+    
       {/* Mobile */}
       <Mobile />
-     
-       
-      
-  
-     <Footer />
+      <Footer />
   
     
     </div>

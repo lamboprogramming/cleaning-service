@@ -30,7 +30,7 @@ const bg = () => {
         </div>
       </section>
       
-    
+     
       
       {/* Stats */}
     <Stats />

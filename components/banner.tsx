@@ -5,9 +5,9 @@ import clean from '../public/clean1.jpg'
 const banner = () => {
   return (
     <div className="">
-      <div>
+      {/* <div>
         <Image src={clean} alt="clean_pic"/>
-      </div>
+      </div> */}
       
     </div>
   );

@@ -12,19 +12,19 @@ import estate from '../public/illustrate/estate.svg'
 
 const Features = () => {
   return (
-<div className="">
+<div className="mb-8">
 
 {/* Features */}
-<div className='flex items-center pt-4 font-sans tracking-wide sm:mt-8 rounded-xl '>
+<div className='flex items-center pt-4 tracking-wider sm:mt-8 rounded-xl'>
   <div className='flex flex-wrap items-start justify-evenly '>
     
     {/* Div 1*/}
-  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-50 rounded-xl'>
+  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-100 rounded-xl'>
     <Link legacyBehavior href="/services/service1">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={materials} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black'>Deep </span>
-      <span className='text-lg font-bold text-black'>Cleaning</span>
+      <span className='text-lg font-bold text-black'>Standard / Deep </span>
+      <span className='text-lg font-bold text-black'>Clean</span>
     </p>
     </Link>
     
@@ -32,54 +32,54 @@ const Features = () => {
 
   
     {/* Div 2*/}
-  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-50 rounded-xl   '>
+  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-100 rounded-xl   '>
   <Link legacyBehavior href="/services/service2">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={estate} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black '>Residential & </span>
-      <span className='text-lg font-bold text-black'>Commercial Cleaning</span>
+      <span className='text-lg font-bold text-black '>Residential / Commercial </span>
+      <span className='text-lg font-bold text-black'> Clean</span>
     </p>
     </Link>
   </div>
   
     {/* Div 3*/}
-  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-50 rounded-xl '>
+  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-100 rounded-xl '>
   <Link legacyBehavior href="/services/service3">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={moving} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black'>Relocation</span>
-      <span className='text-lg font-bold text-black'>Cleaning</span>
+      <span className='text-lg font-bold text-black'>Move In / Move Out</span>
+      <span className='text-lg font-bold text-black'>Clean</span>
     </p>
     </Link>
   </div>
     {/* Div 4*/}
-  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-50 rounded-xl '>
+  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-100 rounded-xl '>
   <Link legacyBehavior href="/services/service4">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={office} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black'>Rental</span>
-      <span className='text-lg font-bold text-black'>Property Cleaning</span>
+      <span className='text-lg font-bold text-black'>AirBnB / Rental Property</span>
+      <span className='text-lg font-bold text-black'>Clean</span>
     </p>
     </Link>
   </div>
   
     {/* Div 5*/}
-  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-50 rounded-xl '>
+  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-100 rounded-xl '>
   <Link legacyBehavior href="/services/service5">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={outdoor} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black'>Outdoor & </span>
-      <span className='text-lg font-bold text-black'>Patio Cleaning</span>
+      <span className='text-lg font-bold text-black'>Outdoor / Patio </span>
+      <span className='text-lg font-bold text-black'>Clean</span>
     </p>
     </Link>
   </div>
     {/* Div 6*/}
-  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-50 rounded-xl '>
+  <div className='flex h-[200px] w-[300px] p-2 shadow-md m-2 justify-center bg-green-100 rounded-xl '>
   <Link legacyBehavior href="/services/service6">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={vacuum} className='h-[65%] mb-2' alt="/" />
-      <span className='text-lg font-bold text-black'>Miscellaneous / </span>
-      <span className='text-lg font-bold text-black'>One Time Cleaning</span>
+      <span className='text-lg font-bold text-black'>Recurring / One Time</span>
+      <span className='text-lg font-bold text-black'>Clean</span>
     </p>
     </Link>
   </div>
