@@ -13,7 +13,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200">
+    <nav className="bg-black border-gray-200">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
         <a href="/" className="flex items-center">
           {/* <Image
@@ -23,7 +23,7 @@ const Nav = () => {
             height="100"
             alt="Flowbite Logo"
           /> */}
-          <span className="self-center text-xl font-semibold text-black whitespace-nowrap">
+          <span className="self-center text-2xl font-semibold text-yellow-100 whitespace-nowrap">
             Champion Cleaning
           </span>
         </a>
@@ -57,11 +57,11 @@ const Nav = () => {
           } w-full md:block md:w-auto`}
           id="navbar-default"
         >
-          <ul className="flex flex-col p-4 mt-4 font-medium border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          <ul className="flex flex-col p-4 mt-4 text-lg font-medium border border-gray-100 rounded-lg md:p-0 md:flex-row md:space-x-8 md:mt-0 md:border-0">
             <li>
               <Link
                 href='/'
-                className="block py-2 pl-3 pr-4 text-black rounded md:p-0 dark:text-black md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+                className="block py-2 pl-3 pr-4 text-yellow-100 rounded md:p-0 dark:text-yellow-100 md:border-0 md:hover:text-yellow-200"
                 aria-current="page"
               >
                 Home
@@ -71,7 +71,7 @@ const Nav = () => {
             <li>
               <a
                 href="/services"
-                className="block py-2 pl-3 pr-4 text-black rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-yellow-100 rounded md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-yellow-100 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-yellow-100 md:dark:hover:bg-transparent"
               >
                 Services
               </a>
@@ -80,7 +80,7 @@ const Nav = () => {
             <li>
               <Link
                 href="/faq"
-                className="block py-2 pl-3 pr-4 text-black rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-yellow-100 rounded md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-yellow-100 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-yellow-100 md:dark:hover:bg-transparent"
               >
                 FAQ
               </Link>
@@ -89,7 +89,7 @@ const Nav = () => {
             <li>
               <a
                 href="/contact"
-                className="block py-2 pl-3 pr-4 text-black rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent"
+                className="block py-2 pl-3 pr-4 text-yellow-100 rounded md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-yellow-100 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-yellow-100 md:dark:hover:bg-transparent"
               >
                 Contact
               </a>
