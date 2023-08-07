@@ -4,6 +4,7 @@ import Nav from '@/components/nav';
 import Mobile from '@/components/mobile';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
+import Socials from '@/components/socials';
 
 const page = () => {
   return (

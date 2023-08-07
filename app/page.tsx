@@ -13,6 +13,8 @@ import Mobile from '@/components/mobile'
 import Footer from '@/components/footer'
 import Testimonials from '@/components/testimonials'
 import Header from '@/components/header'
+import Socials from '@/components/socials'
+import Carousel from '@/components/carousel'
 
 
 
@@ -27,19 +29,24 @@ export default function Home() {
       
       {/* Hero Section */}
       <Bg />
-      <div className='lg:hidden'>
+      {/* <Socials /> */}
+      <div className='md:hidden'>
       <div className=" lg:mt-0 lg:col-span-5 lg:flex">
             <Image src={Champ} className='w-full '  alt="mockup"/>
-        </div>  
-        </div>
+      </div>  
+      </div>
+        {/* <Carousel /> */}
+    
       <Testimonials />
     
       {/* Mobile */}
-      <Mobile />
+      
       <Footer />
+      
   
     
     </div>
+    <Mobile />
     </>
   )
  
