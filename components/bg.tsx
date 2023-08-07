@@ -1,10 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image'
-import photo from '../public/kitchen.jpg'
-import photo1 from '../public/clean1.jpg'
 import Champ from '../public/clean3.jpg'
-import Footer from './footer';
 import Stats from '../components/stats';
 import Socials from '../components/socials';
 

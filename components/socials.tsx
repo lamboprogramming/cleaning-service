@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link'
-import { SiThumbtack } from 'react-icons/Si'
-import { FaFacebookSquare }  from 'react-icons/Fa'
-import { FaInstagramSquare } from 'react-icons/Fa'
+import { SiThumbtack } from 'react-icons/si'
+import { FaFacebookSquare }  from 'react-icons/fa'
+import { FaInstagramSquare } from 'react-icons/fa'
 
 
 const socials = () => {
