@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -10,10 +9,7 @@ module.exports = {
 	],
   theme: {
     extend: {
-      backgroundImage: theme => ({
-        'hero-pattern': "url('/cleaning-service/public/illustrate/janitorial-services.png')",
-        backgroundImage: ['responsive', 'hover', 'focus'],
-      })
+   
     },
     container: {
       center: true,

@@ -10,10 +10,7 @@ import {
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 
- {/* Standard Clean, Vacation Rental, Airbnb, Vrbo */}
-              {/* General Cleaning, Deep cleaning, Carpet, Office, Tile */}
-              {/* Home , apartment & condo, Move in, Move out, Special Event */}
-              {/* Recurring services? */}
+
 const page = () => {
   return (
     <>
