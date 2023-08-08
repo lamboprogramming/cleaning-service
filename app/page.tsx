@@ -16,7 +16,7 @@ export default function Home() {
     <>
     
     <Nav />
-    <div className='bg-yellow-100'>
+    <div className=''>
       <Bg />
       <Cards />
       <Homepic />
