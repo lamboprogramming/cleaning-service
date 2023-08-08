@@ -7,7 +7,7 @@ const footer = () => {
   return (
     <>
            {/* Footer */}
-    <footer className="bg-black ">
+    <footer className="bg-gray-800 ">
         <div className="max-w-screen-xl pt-2 mx-auto text-center">
             <a href="#" className="flex items-center justify-center text-2xl font-semibold text-yellow-100 ">
             {/* <svg className="h-8 mr-2" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">

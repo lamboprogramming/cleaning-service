@@ -10,9 +10,11 @@ const page = () => {
   return (
     <>
     <Nav />
-    <div className=''>
+    <div className='bg-gray-800'>
       <Header />
+      
       <Features />
+    
       <Mobile />
       <Footer />
       

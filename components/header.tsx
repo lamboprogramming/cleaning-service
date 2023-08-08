@@ -12,8 +12,7 @@ const header = () => {
           
           <p className="mb-4 font-medium">Discover the difference our meticulous attention to detail can make. Embrace a cleaner, healthier environment with our superior cleaning services. Contact us today for a spotless transformation!</p>
           <Link href="/contact" className="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:hover:text-primary-700 md:pt-4">
-              Get a Quote
-              <svg className="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path></svg>
+          <button type="button" className="py-2.5 px-8 mr-2 mb-2 text-[16px] font-medium text-yellow-100 focus:outline-none bg-gray-800 rounded-full border border-gray-200  hover:text-yellow-200 focus:z-10 focus:ring-4 focus:ring-gray-200 tracking-wide">Get a Quote</button>
           </Link>
       </div>
       </div>
