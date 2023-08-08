@@ -19,7 +19,7 @@ const page = () => {
         <blockquote className="max-w-2xl mx-auto text-gray-500 ">
             <h3 className="text-3xl font-semibold text-gray-900 ">Our Mission</h3>
 
-            <p className="my-4 text-xl leading-9">Customer satisfaction is the reason that we joined this business. We are passionate about putting smiles on our client&apos;s faces. When we clean we do so with joy knowing that we have the opportunity to make a difference in someone&apos; life. Sometimes the cleaning can become too much, that&apos;s where we come in!</p>
+            <p className="my-4 text-xl leading-9 sm:text-2xl sm:leading-10">Customer satisfaction is the reason that we joined this business. We are passionate about putting smiles on our client&apos;s faces. When we clean we do so with joy knowing that we have the opportunity to make a difference in someone&apos; life. Sometimes the cleaning can become too much, that&apos;s where we come in!</p>
         </blockquote>   
     </figure>
    
@@ -30,7 +30,7 @@ const page = () => {
       </div>  
       </div>
       <Features />
-      <div className="hidden lg:block">
+      <div className="hidden sm:block">
       <Homepic />
       
     </div>

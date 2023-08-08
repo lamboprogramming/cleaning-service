@@ -16,7 +16,7 @@ const homepic = () => {
   return (
     <div className='p-2 lg:block'>
     {/* Grid 1 */}
-    <div className="grid grid-cols-2 gap-2 m-4 sm:grid-cols-3 ">
+    <div className="grid grid-cols-1 gap-4 m-2 sm:grid-cols-3 ">
       
       <div className="grid rounded-xl ">
         <Image src={s2} alt="#" className="rounded-xl" />
@@ -37,7 +37,7 @@ const homepic = () => {
     </div>
     
     {/* Grid 2 */}
-    <div className="grid grid-cols-2 gap-2 m-4 sm:grid-cols-3 ">
+    <div className="grid grid-cols-1 gap-4 m-2 sm:grid-cols-3 ">
     <div className="grid rounded-xl">
         <Image src={s5} alt="#" className="rounded-xl" />
       </div>

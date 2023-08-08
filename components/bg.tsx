@@ -14,10 +14,10 @@ const bg = () => {
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12 lg:py-4">
           
          <div className="mr-auto leading-8 place-self-center lg:col-span-7 ">
-            <h1 className="max-w-2xl mb-6 text-4xl font-extrabold tracking-wide text-gray-900 sm:mb-4 md:text-5xl xl:text-6xl">Our Cleaning Puts The Extra in Extra-ordinary</h1>
-            <p className="max-w-2xl mt-4 mb-2 text-lg font-medium leading-7 text-gray-700 lg:mb-8 lg:text-xl ">Our dedicated team of skilled professionals is committed to delivering exceptional results that go beyond expectations. Unlike other cleaning companies, we personalize our approach to suit your unique needs. Our tailored solutions are designed to fit seamlessly into your schedule and budget.</p>
+            <h1 className="max-w-2xl mb-6 text-4xl font-extrabold leading-10 tracking-wide text-gray-900 sm:mb-4 sm:text-5xl xl:text-6xl">Our Cleaning Puts The Extra in Extra-ordinary</h1>
+            <p className="max-w-2xl mt-4 mb-2 text-lg font-medium leading-7 text-gray-700 md:text-xl lg:mb-8 ">Our dedicated team of skilled professionals is committed to delivering exceptional results that go beyond expectations. Unlike other cleaning companies, we personalize our approach to suit your unique needs. Our tailored solutions are designed to fit seamlessly into your schedule and budget.</p>
           
-            <p className="max-w-2xl mt-6 mb-12 text-lg font-medium leading-7 text-gray-700 lg:mb-8 lg:text-xl">With years of experience, state-of-the-art equipment, and eco-friendly cleaning solutions, we ensure every nook and cranny in your space is thoroughly sanitized and our clients are satisfied.</p>
+            <p className="max-w-2xl mt-6 mb-12 text-lg font-medium leading-7 text-gray-700 lg:mb-8 md:text-xl">With years of experience, state-of-the-art equipment, and eco-friendly cleaning solutions, we ensure every nook and cranny in your space is thoroughly sanitized and our clients are satisfied.</p>
           <div>
           <Link href="https://dot.cards/championcleaning" className="inline-flex items-center mb-4 text-lg font-medium text-gray-900 cursor-pointer text-primary-600 hover:text-primary-900">
               Check out our social media pages below
