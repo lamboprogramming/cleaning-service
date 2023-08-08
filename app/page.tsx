@@ -1,13 +1,10 @@
-"use client"
-import Image from 'next/image'
-import Link from 'next/link'
-import Champ from '../public/clean3.jpg'
 import Nav from '@/components/nav'
 import Bg from '@/components/bg'
 import Mobile from '@/components/mobile'
 import Footer from '@/components/footer'
 import Testimonials from '@/components/testimonials'
 import Cards from '@/components/cards'
+import Homepic from '@/components/homepic'
 
 
 
@@ -17,26 +14,17 @@ import Cards from '@/components/cards'
 export default function Home() {
   return (
     <>
+    
     <Nav />
     <div className='bg-yellow-100'>
-      
-      
-      {/* Hero Section */}
       <Bg />
       <Cards />
-   
-
-    
+      <Homepic />
       <Testimonials />
-    
-      {/* Mobile */}
-      
       <Footer />
-      
-  
-    
     </div>
     <Mobile />
+    
     </>
   )
  

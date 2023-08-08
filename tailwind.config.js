@@ -6,6 +6,7 @@ module.exports = {
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
     "./node_modules/flowbite/**/*.js",
+    "./node_modules/tw-elements/dist/js/**/*.js",
 	],
   theme: {
     extend: {
@@ -89,6 +90,8 @@ module.exports = {
       },
     },
   },
-  plugins: 
+  plugins:[
           [require('flowbite/plugin')],
+          [require('daisyui')], 
+        ]    
 }

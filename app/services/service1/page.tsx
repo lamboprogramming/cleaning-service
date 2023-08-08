@@ -3,11 +3,11 @@ import Nav from '@/components/nav'
 import Mobile from '@/components/mobile';
 import Link from 'next/link'
 
+
 const page = () => {
   return (
     <>
     <Nav/>
-    
      {/* Headline */}
      <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-12">
     <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Standard / Deep Clean</h1>
