@@ -21,7 +21,7 @@ const cards = () => {
             <p className="my-4 leading-9">&quot;The company was inspired by the idea of providing another stream of income for my family and creating generational wealth. I am an Active Duty Air Force father of 2, looking to help our local community by providing quality cleaning throughout the San Diego area. I have a 5 years of cleaning experience in the hotel industry and 4 years experience cleaning.&quot;</p>
         </blockquote>
         <figcaption className="flex items-center justify-center space-x-3">
-            <Image className="rounded-full w-9 h-9" src={c1} alt="profile picture" width={100} height={100}/>
+            
             <div className="space-y-0.5 font-medium dark:text-white text-left">
                 <div>Chris Bookie</div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">Founder at Champion Cleaning Services LLC</div>
@@ -44,7 +44,7 @@ const cards = () => {
         </blockquote>
 
         <figcaption className="flex items-center justify-center space-x-3">
-            <Image className="rounded-full w-9 h-9" src={c1} alt="profile picture" width={100} height={100}/>
+         
             <div className="space-y-0.5 font-medium dark:text-white text-left">
                 <div></div>
                 <div className="text-sm text-gray-500 dark:text-gray-400">The Champion Cleaning Team</div>
