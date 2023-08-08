@@ -7,7 +7,7 @@ const header = () => {
         {/* Heading */}
       <section className="bg-yellow-100">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-        <div className="max-w-screen-lg text-lg text-gray-700 lg:text-xl ">
+        <div className="max-w-screen-lg text-lg text-gray-500 lg:text-xl ">
           <h2 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">Top tier services leaving you feeling like a true champion</h2>
           
           <p className="mb-4 font-medium">Discover the difference our meticulous attention to detail can make. Embrace a cleaner, healthier environment with our superior cleaning services. Contact us today for a spotless transformation!</p>

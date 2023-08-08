@@ -58,7 +58,7 @@ const page = () => {
     
     <div className="mb-6">
         <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Type of Cleaning Service</label>
-        <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5" required>
+        <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5" required>
             <option value="" disabled>Select type of cleaning service</option>
             <option value="standard">Standard / Deep Clean</option>
             <option value="deep">Residential / Commercial Clean</option>
