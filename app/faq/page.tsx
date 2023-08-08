@@ -19,12 +19,12 @@ const page = () => {
       {/* Header */}
       <section className="bg-yellow-100">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-        <div className="max-w-screen-lg text-gray-500 md:text-lg lg:text-xl ">
+        <div className="max-w-screen-lg text-lg text-gray-700 lg:text-xl ">
           <h2 className="mb-4 text-4xl font-bold leading-10 tracking-tight text-gray-900 sm:text-5xl">We believe in always putting our clients needs first</h2>
           
           <p className="mb-4 font-medium">Exceptional customer service is the cornerstone of a successful business. It not only ensures customer satisfaction but also cultivates brand loyalty and positive word-of-mouth, driven repeat business and sustainable growth</p>
           <Link href="/contact" className="inline-flex items-center font-bold tracking-wide text-gray-900 md:pt-4">
-          <button type="button" className="py-2.5 px-8 mr-2 mb-2 text-[16px] font-medium text-yellow-100 focus:outline-none bg-gray-800 rounded-full border border-gray-200  hover:text-yellow-200 focus:z-10 focus:ring-4 focus:ring-gray-20 tracking-wide">Contact Us</button>
+          <button type="button" className="py-2.5 px-8 mr-2 mb-2 text-[16px] font-medium text-yellow-100 focus:outline-none bg-gray-700 rounded-full border border-gray-200  hover:bg-yellow-50 focus:z-10 focus:ring-4 focus:ring-gray-20 tracking-wide hover:text-gray-700">Contact Us</button>
             
           </Link>
       </div>

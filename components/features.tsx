@@ -23,8 +23,8 @@ const Features = () => {
     <Link legacyBehavior href="/services/service1">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={materials} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black'>Standard / Deep </span>
-      <span className='text-lg font-bold text-black'>Clean</span>
+      <span className='text-xl font-bold text-gray-700'>Standard / Deep </span>
+      <span className='text-xl font-bold text-gray-700'>Clean</span>
     </p>
     </Link>
     
@@ -36,8 +36,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service2">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={estate} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black '>Residential / Commercial </span>
-      <span className='text-lg font-bold text-black'> Clean</span>
+      <span className='text-xl font-bold text-gray-700 '>Residential / Commercial </span>
+      <span className='text-xl font-bold text-gray-700'> Clean</span>
     </p>
     </Link>
   </div>
@@ -47,8 +47,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service3">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={moving} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black '>Move In / Move Out </span>
-      <span className='text-lg font-bold text-black'> Clean</span>
+      <span className='text-xl font-bold text-gray-700 '>Move In / Move Out </span>
+      <span className='text-xl font-bold text-gray-700'> Clean</span>
     </p>
     </Link>
   </div>
@@ -57,8 +57,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service4">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={office} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black'>AirBnB / Rental Property</span>
-      <span className='text-lg font-bold text-black'>Clean</span>
+      <span className='text-xl font-bold text-gray-700'>AirBnB / Rental Property</span>
+      <span className='text-xl font-bold text-gray-700'>Clean</span>
     </p>
     </Link>
   </div>
@@ -68,8 +68,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service5">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={outdoor} className='h-[65%] mb-2' alt="/"  />
-      <span className='text-lg font-bold text-black'>Outdoor / Patio </span>
-      <span className='text-lg font-bold text-black'>Clean</span>
+      <span className='text-xl font-bold text-gray-700'>Outdoor / Patio </span>
+      <span className='text-xl font-bold text-gray-700'>Clean</span>
     </p>
     </Link>
   </div>
@@ -78,8 +78,8 @@ const Features = () => {
   <Link legacyBehavior href="/services/service6">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={vacuum} className='h-[65%] mb-2' alt="/" />
-      <span className='text-lg font-bold text-black'>Recurring / One Time</span>
-      <span className='text-lg font-bold text-black'>Clean</span>
+      <span className='text-xl font-bold text-gray-700'>Recurring / One Time</span>
+      <span className='text-xl font-bold text-gray-700'>Clean</span>
     </p>
     </Link>
   </div>

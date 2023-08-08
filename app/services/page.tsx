@@ -10,7 +10,7 @@ const page = () => {
   return (
     <>
     <Nav />
-    <div className='bg-gray-800'>
+    <div className='bg-gray-700'>
       <Header />
       
       <Features />

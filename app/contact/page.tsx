@@ -99,9 +99,9 @@ const page = () => {
         <div className="flex items-center h-5">
         <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 d " required/>
         </div>
-        <label htmlFor="remember" className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" className="text-yellow-200 hover:underline dark:text-yellow-200">terms and conditions</a>.</label>
+        <label htmlFor="remember" className="ml-2 text-sm font-medium text-gray-900 ">I agree with the <a href="#" className="text-gray-700 hover:underline ">terms and conditions</a>.</label>
     </div>
-    <button type="submit" className="text-white bg-yellow-200 hover:bg-yellow-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-8 py-2.5 text-center ">Submit</button>
+    <button type="submit" className="text-gray-700 bg-yellow-100 hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-8 py-2.5 text-center ">Submit</button>
     </form>
 
 

@@ -24,12 +24,7 @@ export default function Home() {
       {/* Hero Section */}
       <Bg />
       <Cards />
-      {/* <Socials /> */}
-      <div className='lg:hidden'>
-      <div className=" lg:mt-0 lg:col-span-5 lg:flex">
-            <Image src={Champ} className='w-full '  alt="mockup"/>
-      </div>  
-      </div>
+   
 
     
       <Testimonials />
