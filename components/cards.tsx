@@ -11,75 +11,66 @@ import c6 from '../public/pool.jpg'
 
 const cards = () => {
   return (
-  <div className='flex flex-col items-center sm:flex-wrap md:justify-between sm:flex-row sm:flex-shrink-1 sm:flex-grow-1'>
-    <div className="p-8 space-y-8 bg-white rounded-lg shadow-md sm:flex sm:p-4 sm:space-y-0 sm:space-x-4 lg-space-x-0">
-      
-      {/* Card 1 */}
-    <div className="items-center p-2 flex-inline"> 
-    {/* Parent Div for Image Centering */}
-    <div className="flex-1"> 
-      <div className="flex justify-center "> 
-        <Image src={c1} alt="Service 1" width={350} className=" rounded-2xl" />
-      </div>
-    </div>
-    <div className="flex-1 pt-4">
-      <h2 className="mb-2 text-xl font-bold">Standard / Deep</h2>
-      <p className="text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.
-      </p>
-      <p className="pt-4">
-        <Link legacyBehavior href="/services/service1">
-          <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More</button>
-        </Link>
-      </p>
-    </div>
-    </div>
-  
-      {/* Card 2 */}
-    <div className="items-center flex-inline"> 
-    {/* Parent Div for Image Centering */}
-    <div className="flex-1 "> 
-      <div className="flex justify-center "> 
-        <Image src={c2} alt="Service 1" width={350} className=" rounded-2xl" />
-      </div>
-    </div>
-    <div className="flex-1 pt-4">
-    <h2 className="mb-2 text-xl font-bold ">Home / Commercial</h2>
-    <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.</p>
  
-      <p className='pt-4'>
-        <Link legacyBehavior href="/services/service2">
-        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
-        </button>
-        </Link>
-        </p>
-    </div>
-    </div>
+<div className="grid grid-cols-1 mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12">
   
-      {/* Card 3 */}
-    <div className="items-center flex-inline"> 
-    {/* Parent Div for Image Centering */}
-    <div className="flex-1"> 
-      <div className="flex justify-center"> 
-        <Image src={c1} alt="Service 3" width={350} className=" rounded-2xl" />
-      </div>
-    </div>
-    <div className="flex-1 pt-4">
-      <h2 className="mb-2 text-xl font-bold">Move In / Move Out</h2>
-      <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium blandit neque ac efficitur.</p>
-        <p className='pt-4'>
-        <Link legacyBehavior href="/services/service3">
-        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-700">Read More
-        </button>
-        </Link>
-        </p>
-    </div>
-    </div>
-  
-    </div>
+    <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r dark:bg-gray-800 dark:border-gray-700">
+        <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Our History</h3>
+            <p className="my-4 leading-9">My company was inspired by the idea of providing another stream of income for my family and creating generational wealth. I am an Active Duty Air Force father of 2, looking to help our local community by providing quality cleaning throughout the San Diego area. I have a 5 years of cleaning experience in the hotel industry and 4 years experience cleaning</p>
+        </blockquote>
+        <figcaption className="flex items-center justify-center space-x-3">
+            <Image className="rounded-full w-9 h-9" src={c1} alt="profile picture" width={100} height={100}/>
+            <div className="space-y-0.5 font-medium dark:text-white text-left">
+                <div>Chris Bookie</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">Founder at Champion Cleaning Services LLC</div>
+            </div>
+        </figcaption>    
+    </figure>
+    
+    <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-tr-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Our Priority</h3>
+            <p className="my-4 leading-9">Customer satisfaction is the reason that we joined this business. We are passionate about putting smiles our client&apos;s faces and letting them know that their</p>
+        </blockquote>
+        <figcaption className="flex items-center justify-center space-x-3">
+            <Image className="rounded-full w-9 h-9" src={c1} alt="profile picture" width={100} height={100}/>
+            <div className="space-y-0.5 font-medium dark:text-white text-left">
+                <div>Roberta Casas</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">Lead designer at Dropbox</div>
+            </div>
+        </figcaption>    
+    </figure>
 
+    <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-bl-lg md:border-b-0 md:border-r dark:bg-gray-800 dark:border-gray-700">
+        <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Mindblowing workflow</h3>
+            <p className="my-4">Aesthetically, the well designed components are beautiful and will undoubtedly level up your next application."</p>
+        </blockquote>
+        <figcaption className="flex items-center justify-center space-x-3">
+            <Image className="rounded-full w-9 h-9" src={c1} width={100} height={100} alt="profile picture"/>
+            <div className="space-y-0.5 font-medium dark:text-white text-left">
+                <div>Jese Leos</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">Software Engineer at Facebook</div>
+            </div>
+        </figcaption>    
+    </figure>
+    
+    <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-br-lg dark:bg-gray-800 dark:border-gray-700">
+        <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Efficient Collaborating</h3>
+            <p className="my-4">You have many examples that can be used to create a fast prototype for your team.&quote;</p>
+        </blockquote>
+        <figcaption className="flex items-center justify-center space-x-3">
+            <Image className="rounded-full w-9 h-9" src={c1} alt="profile picture" width={100} height={100}/>
+            <div className="space-y-0.5 font-medium dark:text-white text-left">
+                <div>Joseph McFall</div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">CTO at Google</div>
+            </div>
+        </figcaption>    
+    </figure>
+</div>
 
-  </div>
   
   );
 }
