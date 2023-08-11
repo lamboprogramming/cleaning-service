@@ -4,8 +4,7 @@ import Nav from '@/components/nav';
 import Mobile from '@/components/mobile';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import Homepic from '@/components/homepic';
-import Image from 'next/image';
+
 import s1 from '../../public/kitchen.jpg'
 import Testimonials from '@/components/testimonials';
 
@@ -14,7 +13,7 @@ const page = () => {
   return (
     <>
     <Nav />
-    <div className='bg-slate-100'>
+    <div className=''>
       <Header />
 
    
@@ -27,8 +26,9 @@ const page = () => {
         </blockquote>   
     </figure>
       <div className="hidden sm:block">
-      <Homepic />
+     
       </div>
+      
       <Testimonials />
       <Footer />
       <Mobile />

@@ -29,12 +29,7 @@ const imgBanner = () => {
   </div>
 
   <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-    {/* <h3 className="text-xl font-medium text-white">Skinny Jeans Blue</h3>
 
-    <p className="mt-1.5 max-w-[40ch] text-xs text-white">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi
-      dicta impedit aperiam ipsum!
-    </p> */}
   <Link href='/services'>
     <span
       className="inline-block px-5 py-3 mt-3 text-sm font-medium tracking-wide text-white uppercase bg-black rounded-xl"

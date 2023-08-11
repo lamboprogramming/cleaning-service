@@ -7,6 +7,7 @@ import Bio from '@/components/bio'
 import Homepic from '@/components/homepic'
 import Questions from '@/components/questions'
 import ImgBanner from '@/components/imgBanner'
+import Socials from '@/components/socials'
 
 
 
@@ -17,13 +18,15 @@ export default function Home() {
     <>
     
     <Nav />
-    <div className=''>
+    
       <Bg />
       <ImgBanner />
+      {/* <Socials /> */}
       <Questions/>
+      
       <Testimonials />
       <Footer />
-    </div>
+   
     <Mobile />
     
     </>
