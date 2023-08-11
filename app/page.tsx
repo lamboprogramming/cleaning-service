@@ -3,9 +3,10 @@ import Bg from '@/components/bg'
 import Mobile from '@/components/mobile'
 import Footer from '@/components/footer'
 import Testimonials from '@/components/testimonials'
-import Cards from '@/components/cards'
+import Bio from '@/components/bio'
 import Homepic from '@/components/homepic'
-
+import Questions from '@/components/questions'
+import ImgBanner from '@/components/imgBanner'
 
 
 
@@ -18,8 +19,8 @@ export default function Home() {
     <Nav />
     <div className=''>
       <Bg />
-      <Cards />
-      <Homepic />
+      <ImgBanner />
+      <Questions/>
       <Testimonials />
       <Footer />
     </div>

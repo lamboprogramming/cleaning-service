@@ -12,7 +12,7 @@ const header = () => {
           
           <p className="mb-4 font-medium">Discover the difference our meticulous attention to detail can make. Embrace a cleaner, healthier environment with our superior cleaning services. Contact us today for a spotless transformation!</p>
           <Link href="/contact" className="inline-flex items-center font-medium text-primary-600 hover:text-primary-800 dark:hover:text-primary-700 md:pt-4">
-          <button type="button" className="py-2.5 px-8 mr-2 mb-2 text-[16px] font-medium text-yellow-100 focus:outline-none bg-gray-700 rounded-full border border-gray-200  hover:bg-yellow-50 focus:z-10 focus:ring-4 focus:ring-gray-20 tracking-wide hover:text-gray-700">Get a Quote</button>
+          <button type="button" className="w-full px-12 py-3 text-sm font-medium text-yellow-200 bg-gray-800 rounded shadow sm:text-lg hover:bg-gray-700 focus:outline-none focus:ring active:bg-yellow-400 sm:w-auto">Get a Quote</button>
           </Link>
       </div>
       </div>

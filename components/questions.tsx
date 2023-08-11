@@ -1,39 +1,22 @@
 import React from 'react';
-import Link from 'next/link';
-import Testimonials from '@/components/testimonials';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
-import Nav from '@/components/nav';
-import Footer from '@/components/footer';
-import Mobile from '@/components/mobile';
-
-
-const page = () => {
+import { TbMessageCircleQuestion } from 'react-icons/tb'
+const questions = () => {
   return (
-    <>
-    <Nav/>
-      {/* Header */}
-      <section className="bg-yellow-100">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-        <div className="max-w-screen-lg text-lg text-gray-500 lg:text-xl ">
-          <h2 className="mb-4 text-4xl font-bold leading-10 tracking-tight text-gray-900 sm:text-5xl">We believe in always putting our clients needs first</h2>
-          
-          <p className="mb-4 font-medium">Exceptional customer service is the cornerstone of a successful business. It not only ensures customer satisfaction but also cultivates brand loyalty and positive word-of-mouth, driven repeat business and sustainable growth</p>
-          <Link href="/contact" className="inline-flex items-center font-bold tracking-wide text-gray-900 md:pt-4">
-          <button type="button" className="py-2.5 px-8 mr-2 mb-2 text-[16px] font-medium text-yellow-100 focus:outline-none bg-gray-700 rounded-full border border-gray-200  hover:bg-yellow-50 focus:z-10 focus:ring-4 focus:ring-gray-20 tracking-wide hover:text-gray-500">Contact Us</button>
-            
-          </Link>
-      </div>
-      </div>
-      </section>
+    <div className='p-12'>
+       
+      <h1 className='container flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
+      <TbMessageCircleQuestion/> 
+        </h1>
+        
       
-         
-    {/* Accordion of questions */}
-    <div className="container grid grid-cols-1 text-lg ">
+        {/* Accordion of questions */}
+    <div className="grid grid-cols-1 text-lg ">
       <div className="grid m-4">
         {/* Ques 1 */}
         <Accordion type="single" collapsible>
@@ -132,12 +115,8 @@ const page = () => {
       </div>
 
     </div>
-
-    <Testimonials />
-    <Footer />
-    <Mobile />
-    </>
+    </div>
   );
 }
 
-export default page;
+export default questions;

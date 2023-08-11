@@ -17,20 +17,20 @@ const page = () => {
     <form>
     <div className="grid gap-6 mb-6 md:grid-cols-2">
         <div>
-            <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg dark:text-white">First name</label>
+            <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">First name</label>
             <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="Jane" required/>
         </div>
         <div>
-            <label htmlFor="last_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg dark:text-white">Last name</label>
+            <label htmlFor="last_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Last name</label>
             <input type="text" id="last_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="Doe" required/>
         </div>
         <div>
-            <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg dark:text-white">Zip code</label>
-            <input type="text" id="company" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="00000" required/>
+            <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Zip code</label>
+            <input type="text" id="company" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="92124" required/>
         </div>  
         <div>
             <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Phone number</label>
-            <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+            <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="619-000-0000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
         </div>
 
     </div>
@@ -57,7 +57,7 @@ const page = () => {
 
     
     <div className="mb-6">
-        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg dark:text-white">Type of Cleaning Service</label>
+        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Type of Cleaning Service</label>
         <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5" required>
             <option value="" disabled>Select type of cleaning service</option>
             <option value="standard">Standard / Deep Clean</option>
@@ -71,10 +71,10 @@ const page = () => {
     </div>
    
     <div className="mb-6">
-        <label htmlFor="bedrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg dark:text-white">Number of Bedrooms</label>
+        <label htmlFor="bedrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Number of Bedrooms</label>
         <select id="bedrooms" name="bedrooms" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5" required>
             <option value="" disabled>Select number of bedrooms</option>
-            <option value="0">none</option>
+            <option value="0">Bedroom not included</option>
             <option value="1">1 Bedroom</option>
             <option value="2">2 Bedrooms</option>
             <option value="3">3 Bedrooms</option>
@@ -83,10 +83,10 @@ const page = () => {
         </select>
     </div>
     <div className="mb-6">
-        <label htmlFor="bathrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg dark:text-white">Number of Bathrooms</label>
+        <label htmlFor="bathrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Number of Bathrooms</label>
         <select id="bathrooms" name="bathrooms" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5" required>
             <option value="" disabled>Select number of bathrooms</option>
-            <option value="0">none</option>
+            <option value="0">Bathroom not included</option>
             <option value="1">1 Bathroom</option>
             <option value="1.5">1.5 Bathrooms</option>
             <option value="2">2 Bathrooms</option>

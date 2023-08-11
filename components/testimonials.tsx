@@ -6,11 +6,11 @@ import { BsListCheck } from 'react-icons/bs'
 
 const testimonials = () => {
   return (
-<div className='container flex flex-col items-center pb-8 leading-8 rounded-xl'>
+<div className='container flex flex-col items-center pb-8 leading-8 rounded-xl bg-yellow-50'>
   
   <div className='flex flex-col tracking-wide md:tracking-wider'>
 {/* First Testimonial */}
-<figure className="max-w-screen-md pt-4 ">
+<figure className="max-w-screen-md pt-8 ">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black ">Shellie R.</cite>
     </div>

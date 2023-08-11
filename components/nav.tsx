@@ -23,7 +23,7 @@ const Nav = () => {
             height="100"
             alt="Flowbite Logo"
           /> */}
-          <span className="self-center text-2xl font-semibold text-yellow-100 whitespace-nowrap">
+          <span className="self-center text-xl font-semibold text-slate-100 whitespace-nowrap ">
             Champion Cleaning
           </span>
         </a>
@@ -61,7 +61,7 @@ const Nav = () => {
             <li>
               <Link
                 href='/'
-                className="block py-2 pl-3 pr-4 text-yellow-100 rounded md:p-0 dark:text-yellow-100 md:border-0 md:hover:text-yellow-200"
+                className="block py-2 pl-3 pr-4 transition duration-200 rounded cursor-pointer text-slate-100 md:p-0 md:border-0 md:hover:text-yellow-200 sm:hover:scale-125"
                 aria-current="page"
               >
                 Home
@@ -71,28 +71,23 @@ const Nav = () => {
             <li>
               <a
                 href="/services"
-                className="block py-2 pl-3 pr-4 text-yellow-100 rounded md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-yellow-100 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-yellow-100 md:dark:hover:bg-transparent"
-              >
+                className="block py-2 pl-3 pr-4 transition duration-200 rounded text-slate-100 md:border-0 md:hover:text-yellow-200 md:p-0 sm:hover:scale-125 "
+              > 
                 Services
               </a>
             </li>
             
             <li>
               <Link
-                href="/faq"
-                className="block py-2 pl-3 pr-4 text-yellow-100 rounded md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-yellow-100 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-yellow-100 md:dark:hover:bg-transparent"
+                href="/contact"
+                className="block py-2 pl-3 pr-4 transition duration-200 rounded text-slate-100 md:border-0 md:hover:text-yellow-200 md:p-0 sm:hover:scale-125 "
               >
-                FAQ
+                Contact
               </Link>
             </li>
       
             <li>
-              <a
-                href="/contact"
-                className="block py-2 pl-3 pr-4 text-yellow-100 rounded md:border-0 md:hover:text-yellow-200 md:p-0 dark:text-yellow-100 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-yellow-100 md:dark:hover:bg-transparent"
-              >
-                Contact
-              </a>
+      
             </li>
           </ul>
         </div>
