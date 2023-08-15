@@ -71,7 +71,7 @@ const Nav = () => {
             <li>
               <a
                 href="/services"
-                className="block py-2 pl-3 pr-4 transition duration-200 rounded text-slate-100 md:border-0 md:hover:text-yellow-200 md:p-0 sm:hover:scale-125 "
+                className="block py-2 pl-3 pr-4 transition duration-200 rounded text-slate-100 md:border-0 md:hover:text-yellow-200 md:p-0 sm:hover:scale-125"
               > 
                 Services
               </a>

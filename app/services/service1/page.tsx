@@ -4,14 +4,15 @@ import Mobile from '@/components/mobile';
 import Link from 'next/link'
 
 
+
 const page = () => {
   return (
     <>
     <Nav/>
      {/* Headline */}
-     <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-12">
-    <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Standard / Deep Clean</h1>
-        <Link href="/services" className="inline-flex items-center justify-between px-4 py-2 pr-4 text-sm text-gray-700 bg-gray-100 rounded-full mb-7 dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
+     <div className="max-w-screen-xl px-4 py-6 mx-auto text-center md:px-8 lg:py-16 lg:px-12">
+    <h1 className="mb-8 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl ">Standard / Deep Clean</h1>
+        <Link href="/services" className="inline-flex items-center justify-between px-4 py-2 pr-4 text-sm text-gray-700 bg-gray-100 rounded-full mb-7 hover:bg-gray-200 " role="alert">
            <span className="text-sm font-medium">Click to see more services</span> 
             <svg className="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
         </Link>
@@ -19,12 +20,12 @@ const page = () => {
      
     </div>
     {/* Content Start */}
-    <div className="grid gap-4 p-4 font-sans leading-8 tracking-wide ">
+    <div className="grid gap-4 p-4 font-sans tracking-wide ">
         
         <div>
-        <ul className="pl-6 leading-10  list-disc list-outside text-[15px] sm:text-[18px]">
+        <ul className="pl-6 leading-10  list-disc list-outside text-[15px] sm:text-[18px] ">
           {/* General */}
-        <h3 className="text-2xl font-bold text-blue-500 dark:text-white">General Areas:</h3>
+        <h3 className="text-2xl font-medium text-blue-500 ">General Areas:</h3>
           
           <li>Dry floor cleaning using a vacuum cleaner and broom.</li>
           <li>Wet cleaning of floors, baseboards, and window sills.</li>
@@ -38,7 +39,7 @@ const page = () => {
          <div>
          <ul className="pl-6 leading-10  list-disc list-outside text-[15px] sm:text-[18px] rounded-xl mt-8 border-4 border-transparent">
           {/* Kitchen */}
-          <h3 className="mt-2 text-2xl font-bold text-blue-500 dark:text-white">Kitchen:</h3>
+          <h3 className="mt-2 text-2xl font-bold text-blue-500 ">Kitchen:</h3>
 
           <li>Washing dishes by hand or dishwasher (duration may vary based upon the number of dishes).Please avoid leaving expensive or fragile dishes for us to clean.</li>
           <li>Washing the refrigerator inside and outside, including the freezer.</li>
@@ -55,7 +56,7 @@ const page = () => {
           <div>
           <ul className="pl-6 leading-10  list-disc list-outside text-[15px] sm:text-[18px] shadow-sm rounded-xl mb-8">
           {/* Bathroom */}
-          <h3 className="mt-2 text-2xl font-bold text-blue-500 dark:text-white">BATHROOM</h3>
+          <h3 className="mt-2 text-2xl font-bold text-blue-500 ">BATHROOM</h3>
 
           <li>Deep cleaning of shower/bathtub.</li>
           <li>Deep cleaning and disinfection of faucets, sinks, and toilets.</li>
@@ -69,7 +70,7 @@ const page = () => {
           <div>
           <ul className="pl-6 leading-10  list-disc list-outside text-[15px] sm:text-[18px] shadow-sm rounded-xl mb-8">
           {/* BedRoom */}
-          <h3 className="mt-8 mb-2 text-2xl font-bold text-blue-500 dark:text-white">SLEEPING & LIVING:</h3>
+          <h3 className="mt-8 mb-2 text-2xl font-bold text-blue-500 ">SLEEPING & LIVING:</h3>
 
           <li>Wiping down window sills and ledges.</li>
           <li>Furniture surfaces dusted and cleaned.</li>

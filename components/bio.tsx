@@ -12,7 +12,7 @@ import { Slabo_13px } from 'next/font/google';
 const bio = () => {
   return (
  
-<div className="grid border border-gray-200 shadow-sm md:mb-12">
+<div className="grid shadow-sm md:mb-12">
   {/* Col 1 */}
   <div>
     <figure className="flex flex-col p-6 text-lg tracking-wider bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r ">

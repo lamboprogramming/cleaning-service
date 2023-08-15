@@ -8,11 +8,12 @@ import {
 import { TbMessageCircleQuestion } from 'react-icons/tb'
 const questions = () => {
   return (
-    <div className='m-8 mb-4 rounded-3xl'>
+    <div className='p-4 m-4 rounded-3xl bg-slate-100 '>
        
       <h1 className='flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
       <TbMessageCircleQuestion/> 
-        </h1>
+      </h1>
+      {/* <h2 className='flex justify-center text-3xl font-medium'>FAQ</h2> */}
         
       
         {/* Accordion of questions */}
