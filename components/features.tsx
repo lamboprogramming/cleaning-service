@@ -9,17 +9,23 @@ import house from '../public/illustrate/house.svg'
 import materials from '../public/illustrate/cleaning-materials.svg'
 import vacuum from '../public/illustrate/vacuum.svg'
 import estate from '../public/illustrate/estate.svg'
+import { GiVacuumCleaner } from 'react-icons/gi'
 
 const Features = () => {
   return (
-<div className="pb-4 bg-yellow-100 ">
-
+<div className="pt-4 pb-4 ">
+<h1 className='flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
+      <GiVacuumCleaner/> 
+      </h1>
+      <div className='flex justify-center text-2xl font-medium tracking-wide lg:text-5xl sm:text-3xl'>
+        <h2>Services</h2>
+      </div>
 {/* Features */}
 <div className='flex items-center pt-4 tracking-wider rounded-xl'>
   <div className='flex flex-wrap items-start justify-evenly '>
     
     {/* Div 1*/}
-  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl cursor-pointer font-medium '>
+  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl cursor-pointer font-medium border-2 border-gray-900 bg-yellow-50 hover:bg-black/10'>
     <Link legacyBehavior href="/services/service1">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={materials} className='h-[65%] mb-2' alt="/"  />
@@ -32,7 +38,7 @@ const Features = () => {
 
   
     {/* Div 2*/}
-  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium '>
+  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium border-gray-900 border-2 bg-yellow-50 hover:bg-black/10'>
   <Link legacyBehavior href="/services/service2">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={estate} className='h-[65%] mb-2' alt="/"  />
@@ -43,7 +49,7 @@ const Features = () => {
   </div>
   
     {/* Div 3*/}
-    <div className='flex h-[200px] w-full sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium    '>
+    <div className='flex h-[200px] w-full sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium   border-gray-900 border-2 bg-yellow-50 hover:bg-black/10'>
   <Link legacyBehavior href="/services/service3">
     <p className='flex flex-col items-center cursor-pointer '>
       <Image src={moving} className='h-[65%] mb-2' alt="/"  />
@@ -54,7 +60,7 @@ const Features = () => {
     </div>
   
     {/* Div 4*/}
-  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium  '>
+  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium  border-gray-900 border-2 bg-yellow-50 hover:bg-black/10'>
   <Link legacyBehavior href="/services/service4">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={office} className='h-[65%] mb-2' alt="/"  />
@@ -65,7 +71,7 @@ const Features = () => {
   </div>
   
     {/* Div 5*/}
-  <div className='flex h-[200px] sm:w-[300px]  p-2 shadow-md m-2 justify-center  rounded-xl font-medium '>
+  <div className='flex h-[200px] sm:w-[300px]  p-2 shadow-md m-2 justify-center  rounded-xl font-medium border-gray-900 border-2 bg-yellow-50 hover:bg-black/10'>
   <Link legacyBehavior href="/services/service5">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={outdoor} className='h-[65%] mb-2' alt="/"  />
@@ -76,7 +82,7 @@ const Features = () => {
   </div>
   
     {/* Div 6*/}
-  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium'>
+  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium border-2 border-gray-900 bg-yellow-50 hover:bg-black/10'>
   <Link legacyBehavior href="/services/service6">
     <p className='flex flex-col items-center cursor-pointer'>
       <Image src={vacuum} className='h-[65%] mb-2' alt="/" />

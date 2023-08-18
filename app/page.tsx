@@ -15,22 +15,23 @@ import Socials from '@/components/socials'
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-slate-50">
     
     <Nav />
     
       <Bg />
       <ImgBanner />
-      <Bio />
       {/* <Socials /> */}
+      <Bio />
+      <Testimonials />
       <Questions/>
       
-      <Testimonials />
+      
       <Footer />
    
     <Mobile />
     
-    </>
+    </div>
   )
  
 }

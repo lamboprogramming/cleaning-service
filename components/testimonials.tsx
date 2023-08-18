@@ -7,16 +7,19 @@ import { HiMiniUserGroup } from 'react-icons/hi2'
 
 const testimonials = () => {
   return (
-<div className='flex flex-col p-8 pb-8 leading-8 rounded-xl'>
-<h1 className='flex justify-center pt-2 font-medium tracking-tight text-gray-700 text-7xl'>
+<div className='flex flex-col p-8 pb-8 leading-8 border-t-2 border-gray-200'>
+<h1 className='flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
       <HiMiniUserGroup/> 
       </h1>
+      <div className='flex justify-center mb-4 text-2xl font-medium tracking-wide lg:text-5xl sm:text-3xl'>
+        <h2>Testimonials</h2>
+      </div>
       {/* <h2 className='flex justify-center text-3xl font-medium tracking-tight text-gray-700'>TESTIMONIALS</h2> */}
   
   <div className='flex flex-col tracking-wide md:tracking-wider'>
     
 {/* First Testimonial */}
-<figure className="p-4 pt-8 shadow-md max-w-screen-4xl rounded-xl">
+<figure className="p-4 pt-8 shadow-md bg-yellow-50 max-w-screen-4xl rounded-xl">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black ">Shellie R.</cite>
     </div>
@@ -52,7 +55,7 @@ const testimonials = () => {
 </figure>
   
 {/* Second Testimonial */}
-<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl ">
+<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl bg-yellow-50">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black ">Emily B.</cite>
     </div>
@@ -88,7 +91,7 @@ const testimonials = () => {
 </figure>
   
 {/* Third Testimonial */}
-<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl ">
+<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl bg-yellow-50">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black ">James B.</cite>
     </div>
@@ -124,7 +127,7 @@ const testimonials = () => {
 </figure>
 
 {/* Fourth Testimonial */}
-<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl ">
+<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl bg-yellow-50">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black ">Shelley F.</cite>
     </div>
@@ -160,7 +163,7 @@ const testimonials = () => {
 </figure>
 
   {/* Fifth Testimonial */}
-<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl ">
+<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl bg-yellow-50">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black ">Lori S.</cite>
     </div>
@@ -196,7 +199,7 @@ const testimonials = () => {
 </figure>
   
   {/* Sixth Testimonial */}
-<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl ">
+<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl bg-yellow-50">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black ">Lauren B.</cite>
     </div>
@@ -232,7 +235,7 @@ const testimonials = () => {
 </figure>
   
   {/* Seventh Testimonial */}
-<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl ">
+<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl bg-yellow-50">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black">Joshua A.</cite>
     </div>
@@ -268,7 +271,7 @@ const testimonials = () => {
 </figure>
   
   {/* Eighth Testimonial */}
-<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl ">
+<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl bg-yellow-50">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black ">Katie S.</cite>
     </div>
@@ -304,7 +307,7 @@ const testimonials = () => {
 </figure>
 
   {/* Ninth Testimonial */}
-<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl ">
+<figure className="p-4 mt-8 shadow-md max-w-screen-4xl rounded-xl bg-yellow-50">
   <div className='mb-1 '>
     <cite className="pr-3 text-lg text-black">Kaitlan G.</cite>
     </div>

@@ -12,14 +12,14 @@ import { Slabo_13px } from 'next/font/google';
 const bio = () => {
   return (
  
-<div className="grid shadow-sm md:mb-12">
+<div className="grid shadow-sm ">
   {/* Col 1 */}
   <div>
-    <figure className="flex flex-col p-6 text-lg tracking-wider bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r ">
+    <figure className="flex flex-col p-6 text-lg tracking-wider border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-tl-lg md:border-r ">
         <blockquote className="max-w-5xl mx-auto mb-4 font-light text-gray-700 lg:mb-6 ">
             
             <p className="my-4 leading-10 ">&quot;The company was inspired by the idea of providing another stream of income for my family and creating generational wealth. I am an Active Duty Air Force father of 2, looking to help our local community by providing quality cleaning throughout the San Diego area.  I have 6 years of cleaning experience in the hotel industry and 5 years experience cleaning homes, apartments, condos, rentals, airbnbs, and commercial buildings.</p>
-            <p className="my-4 leading-10 ">I&apos;m family oriented and really enjoy helping people. The goal is to always give 100% effort and excellent customer service while building rapport and partnerships with my customers. When you hire a <span className="font-semibold">Champion Cleaner</span>, you will be more than satisfied with our efficiency and professionalism.&quot;</p>
+            <p className="my-4 leading-10 "> When you hire a <span className="font-semibold">Champion Cleaner</span>, you will be more than satisfied with our efficiency and professionalism.&quot;</p>
         </blockquote>
         <figcaption className="flex items-center justify-center space-x-3">
             

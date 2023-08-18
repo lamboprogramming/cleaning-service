@@ -8,29 +8,26 @@ import Footer from '@/components/footer';
 import s1 from '../../public/kitchen.jpg'
 import Testimonials from '@/components/testimonials';
 import Carousel from '@/components/carousel';
+import Questions from '@/components/questions';
 
 
 const page = () => {
   return (
-    <>
+    <div className="bg-slate-50">
     <Nav />
     <div className=''>
       <Header />
-
-   
-
       <Features />
-      {/* Carousel */}
       <Carousel />
-      
       <Testimonials />
+      <Questions/>
       <Footer />
       <Mobile />
       
     </div>
 
    
-    </>
+    </div>
   );
 }
 

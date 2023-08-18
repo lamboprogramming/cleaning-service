@@ -1,15 +1,48 @@
 import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import clean2 from '../public/services/s10.jpg'
+import clean3 from '../public/kitchen2.jpg'
 
 const carousel = () => {
   return (
     <div>
-      <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 1v3m5-3v3m5-3v3M1 7h18M5 11h10M2 3h16a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/>
-</svg>
-<svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 18">
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 12.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"/>
-    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 3h-2l-.447-.894A2 2 0 0 0 12.764 1H7.236a2 2 0 0 0-1.789 1.106L5 3H3a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V5a2 2 0 0 0-2-2Z"/>
-</svg>
+<div className="">
+        <div>
+       {/* Image & Services */}
+       <div>
+      <div className="relative block group">
+  <div className="relative h-[350px] sm:h-[450px]">
+    <Image
+      priority
+      src={clean3}
+      alt=""
+      className="absolute inset-0 object-cover w-full h-full opacity-100 group-hover:opacity-0"
+      
+    />
+
+    <Image
+      src={clean2}
+      alt=""
+      className="absolute inset-0 object-cover w-full h-full opacity-0 group-hover:opacity-100"
+     
+    />
+  </div>
+
+  {/* <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+
+  <Link href='/services'>
+    <span
+      className="inline-block px-5 py-3 mt-3 text-sm font-medium tracking-wide text-white uppercase bg-black rounded-xl"
+    >
+      View Our Services
+    </span>
+    </Link>
+  </div> */}
+    </div>
+      </div>
+  </div>
+    </div>
     </div>
   );
 }
