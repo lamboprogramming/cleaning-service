@@ -10,11 +10,11 @@ const questions = () => {
   return (
     <div className='p-2 m-6 rounded-3xl bg-slate-100'>
        
-      <h1 className='flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
+      <h1 className='flex justify-center mb-2 font-medium tracking-tight text-gray-700 text-7xl'>
       <TbMessageCircleQuestion/> 
       </h1>
-      <div className='flex justify-center mb-4 text-2xl font-medium tracking-wide lg:text-5xl sm:text-3xl'>
-        <h2>FAQs</h2>
+      <div className='flex justify-center text-2xl font-medium tracking-wide md:text-3xl '>
+        <h2>Frequently Asked</h2>
       </div>
    
         {/* Accordion of questions */}

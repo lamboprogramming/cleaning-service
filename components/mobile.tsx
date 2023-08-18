@@ -7,7 +7,7 @@ const mobile = () => {
   return (
 <div className=' lg:hidden'>
       
-    <div className="fixed bottom-0 left-0 z-50 w-full h-16 bg-white border-t border-gray-200 dark:bg-gray-700 dark:border-gray-600">
+    {/* <div className="fixed bottom-0 left-0 z-50 w-full h-16 bg-white border-t border-gray-200 dark:bg-gray-700 dark:border-gray-600">
         <div className="grid h-full max-w-lg grid-cols-4 mx-auto font-medium">
     <Link href="/" className='flex'>
         <button type="button" className="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
@@ -17,7 +17,7 @@ const mobile = () => {
             <span className="text-sm text-black dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500">Home</span>
         </button>
         </Link>
-        {/* Services */}
+        
           <Link href="/services" className='flex'>
            <button type="button" className="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
             <svg className="w-5 h-5 mb-2 text-black dark:text-gray-400 group-hover:text-blue-600 dark:group-hover:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -46,7 +46,7 @@ const mobile = () => {
         </button>
         </Link>
         </div>
-    </div>
+    </div> */}
 
 </div>
   );

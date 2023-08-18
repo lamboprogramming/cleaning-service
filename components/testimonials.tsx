@@ -11,7 +11,7 @@ const testimonials = () => {
 <h1 className='flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
       <HiMiniUserGroup/> 
       </h1>
-      <div className='flex justify-center mb-4 text-2xl font-medium tracking-wide lg:text-5xl sm:text-3xl'>
+      <div className='flex justify-center mb-4 text-2xl font-medium tracking-wide lg:text-3xl '>
         <h2>Testimonials</h2>
       </div>
       {/* <h2 className='flex justify-center text-3xl font-medium tracking-tight text-gray-700'>TESTIMONIALS</h2> */}

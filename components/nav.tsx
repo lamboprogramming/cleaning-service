@@ -13,24 +13,24 @@ const Nav = () => {
   };
 
   return (
-    <nav className="bg-gray-700 border-gray-200 ">
+    <nav className="bg-white border-gray-200 ">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
         <a href="/" className="flex items-center">
-          {/* <Image
-            src={"https://flowbite.com/docs/images/logo.svg"}
-            className="h-8 mr-3"
+          <Image
+            src={logo}
+            className="h-16 mr-3"
             width="100"
             height="100"
             alt="Flowbite Logo"
-          /> */}
-          <span className="self-center text-xl font-semibold text-slate-100 whitespace-nowrap ">
+          />
+          {/* <span className="self-center text-xl font-semibold text-black whitespace-nowrap ">
             Champion Cleaning
-          </span>
+          </span> */}
         </a>
         <button
           onClick={toggleNav}
           type="button"
-          className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-gray-500 rounded-lg md:hidden"
+          className="inline-flex items-center justify-center w-10 h-10 p-2 text-sm text-black rounded-lg md:hidden"
           aria-controls="navbar-default"
           aria-expanded={isNavOpen}
         >
@@ -61,7 +61,7 @@ const Nav = () => {
             <li>
               <Link
                 href='/'
-                className="block py-2 pl-3 pr-4 transition duration-200 rounded cursor-pointer text-slate-100 md:p-0 md:border-0 md:hover:text-yellow-200 sm:hover:scale-125"
+                className="block py-2 pl-3 pr-4 text-black transition duration-200 rounded cursor-pointer md:p-0 md:border-0 md:hover:text-yellow-200 sm:hover:scale-125"
                 aria-current="page"
               >
                 Home
@@ -71,7 +71,7 @@ const Nav = () => {
             <li>
               <a
                 href="/services"
-                className="block py-2 pl-3 pr-4 transition duration-200 rounded text-slate-100 md:border-0 md:hover:text-yellow-200 md:p-0 sm:hover:scale-125"
+                className="block py-2 pl-3 pr-4 text-black transition duration-200 rounded md:border-0 md:hover:text-yellow-200 md:p-0 sm:hover:scale-125"
               > 
                 Services
               </a>
@@ -80,7 +80,7 @@ const Nav = () => {
             <li>
               <Link
                 href="/contact"
-                className="block py-2 pl-3 pr-4 transition duration-200 rounded text-slate-100 md:border-0 md:hover:text-yellow-200 md:p-0 sm:hover:scale-125 "
+                className="block py-2 pl-3 pr-4 text-black transition duration-200 rounded md:border-0 md:hover:text-yellow-200 md:p-0 sm:hover:scale-125 "
               >
                 Contact
               </Link>
