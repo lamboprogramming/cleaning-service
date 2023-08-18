@@ -13,9 +13,10 @@ const questions = () => {
       <h1 className='flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
       <TbMessageCircleQuestion/> 
       </h1>
-      {/* <h2 className='flex justify-center text-3xl font-medium'>FAQ</h2> */}
-        
-      
+      <div className='flex justify-center mb-4 text-2xl font-medium tracking-wide lg:text-5xl sm:text-3xl'>
+        <h2>FAQs</h2>
+      </div>
+   
         {/* Accordion of questions */}
     <div className="grid grid-cols-1 text-lg ">
       <div className="grid m-4">
