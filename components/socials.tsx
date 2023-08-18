@@ -17,24 +17,24 @@ const socials = () => {
         <h2>Social Media</h2>
       </div>
     </div>
-    <div className='flex flex-row m-8 mt-4 text-6xl text-black border-2 border-black rounded-full justify-evenly '>
+    <div className='flex flex-row justify-between p-4 m-4 mt-4 text-6xl text-black border-2 border-black/50 sm:justify-evenly rounded-xl '>
  
     
       <Link href='https://www.thumbtack.com/ca/san-diego/house-cleaning/champion-cleaning-llc/service/457493064825454607'>
-      <div className='m-4 transition duration-200 cursor-pointer sm:hover:scale-125'>
+      <div className='transition duration-200 cursor-pointer sm:hover:scale-125'>
         <SiThumbtack />
       </div>
       </Link>
 
       <Link href='https://www.facebook.com/championcleaning4/'>
-      <div className='m-4 transition duration-200 cursor-pointer sm:hover:scale-125'>
+      <div className='transition duration-200 cursor-pointer sm:hover:scale-125'>
          <FaFacebookSquare />
          
        </div>
       </Link>
 
       <Link href='https://www.instagram.com/championcleaningllc/?hl=en'>
-      <div className='m-4 transition duration-200 cursor-pointer sm:hover:scale-125'>
+      <div className='transition duration-200 cursor-pointer sm:hover:scale-125'>
          <FaInstagramSquare />
        </div>
       </Link>
