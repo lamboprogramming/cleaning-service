@@ -5,7 +5,7 @@ import clean1 from '../public/services/s1.jpg'
 import clean2 from '../public/services/s2.jpg'
 import clean3 from '../public/services/s4.jpg'
 import clean4 from '../public/services/s8.jpg'
-import clean5 from '../public/services/s9.jpg'
+import clean5 from '../public/services/s11.jpg'
 import clean6 from '../public/services/s10.jpg'
 
 const carousel = () => {

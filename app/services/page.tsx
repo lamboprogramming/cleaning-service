@@ -3,7 +3,6 @@ import Features from '@/components/features';
 import Nav from '@/components/nav';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import s1 from '../../public/kitchen.jpg'
 import Testimonials from '@/components/testimonials';
 
 import Questions from '@/components/questions';
@@ -16,9 +15,8 @@ const page = () => {
     <Nav />
       <Header />
       <Features />
-      
-      <Testimonials />
       <PicBanner />
+      <Testimonials />
       <Footer />
     </div>
   );

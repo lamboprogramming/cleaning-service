@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import clean from '../public/services/s10.jpg'
+import clean from '../public/clean5.jpg'
 import clean3 from '../public/kitchen2.jpg'
 
 
