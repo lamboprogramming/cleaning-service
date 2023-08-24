@@ -112,7 +112,7 @@ const page = () => {
     </div>
     <div className="mb-6">
     <label htmlFor="comments" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Additional Comments or Requests</label>
-    <textarea id="comments" name="comments"  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" rows="4" placeholder="Feel free to share any specific requirements or preferences here."></textarea>
+    <textarea id="comments" name="comments"  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" rows={4} placeholder="Feel free to share any specific requirements or preferences here."></textarea>
 </div>
 
     <div className="flex items-start mb-6">
