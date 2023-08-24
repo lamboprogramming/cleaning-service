@@ -14,12 +14,12 @@ import { GiVacuumCleaner } from 'react-icons/gi'
 const Features = () => {
   return (
 <div className="pt-4 pb-4 ">
-<h1 className='flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
+<h1 className='flex justify-center text-4xl font-medium tracking-tight text-gray-700'>
       <GiVacuumCleaner/> 
       </h1>
-      <div className='flex justify-center text-2xl font-medium tracking-wide lg:text-5xl sm:text-3xl'>
+      {/* <div className='flex justify-center text-2xl font-medium tracking-wide lg:text-5xl sm:text-3xl'>
         <h2>Services</h2>
-      </div>
+      </div> */}
 {/* Features */}
 <div className='flex items-center pt-4 tracking-wider rounded-xl'>
   <div className='flex flex-wrap items-start justify-evenly '>

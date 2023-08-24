@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Nav from '@/components/nav';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import Testimonials from '@/components/testimonials';
 import ImgBanner from '@/components/imgBanner';
 
 const page = () => {
@@ -136,7 +135,6 @@ const page = () => {
 
     </div>
     <ImgBanner />
-    <Testimonials />
     <Footer />
     
     </>

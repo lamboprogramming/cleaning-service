@@ -8,7 +8,7 @@ const footer = () => {
   return (
     <div className="">
            {/* Footer */}
-    <footer className="bg-white ">
+    <footer className="">
         
         <div className="max-w-screen-xl pt-8 mx-auto mb-4 text-center">
             <a href="#" className="flex items-center justify-center text-2xl font-semibold text-black ">

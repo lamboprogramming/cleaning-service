@@ -12,21 +12,14 @@ import PicBanner from '@/components/picBanner';
 
 const page = () => {
   return (
-    <div className="bg-slate-50">
+    <div className="">
     <Nav />
-    <div className=''>
-      <Header />
+      {/* <Header /> */}
       <Features />
       <Carousel />
       <Testimonials />
       <PicBanner />
-      <Questions/>
       <Footer />
-      
-      
-    </div>
-
-   
     </div>
   );
 }

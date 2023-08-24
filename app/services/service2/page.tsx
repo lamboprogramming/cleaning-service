@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '@/components/nav';
 import Link from 'next/link';
-import Mobile from '@/components/mobile';
+
 
 
 
@@ -99,7 +99,7 @@ const page = () => {
    
 
    
-    <Mobile />
+    
     </>
   );
 }
