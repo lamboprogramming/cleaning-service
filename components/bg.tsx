@@ -19,9 +19,9 @@ const bg = () => {
           
           <p className="font-medium leading-8">Exceptional customer service is the cornerstone of a successful business. It not only ensures customer satisfaction but also cultivates brand loyalty and positive word-of-mouth, driven repeat business and sustainable growth</p>
       </div>
-      <div className="flex items-center pt-4">
+      {/* <div className="flex items-center pt-4">
       <button className='px-5 py-3 mt-3 text-sm font-medium tracking-wide text-black uppercase border-2 border-black hover:bg-black/10 rounded-xl'>Request A Quote</button>
-      </div>
+      </div> */}
       </div>
       
       

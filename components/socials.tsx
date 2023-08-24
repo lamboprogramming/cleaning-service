@@ -9,15 +9,15 @@ import { MdPhoneIphone } from 'react-icons/md'
 const socials = () => {
   return (
     <>
-    <div className='mt-4 '>
+    {/* <div className='mt-4 '>
     <h1 className='flex justify-center font-medium tracking-tight text-gray-700 text-7xl'>
       <MdPhoneIphone/> 
       </h1>
       <div className='flex justify-center mt-4 text-2xl font-medium tracking-wide lg:text-3xl '>
         <h2>Social Media</h2>
       </div>
-    </div>
-    <div className='flex flex-row justify-between p-4 m-4 mt-4 text-6xl text-black border-2 border-black/50 sm:justify-evenly rounded-xl '>
+    </div> */}
+    <div className='flex flex-row justify-center m-4 space-x-12 text-3xl text-black rounded-xl '>
  
     
       <Link href='https://www.thumbtack.com/ca/san-diego/house-cleaning/champion-cleaning-llc/service/457493064825454607'>

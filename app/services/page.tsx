@@ -1,14 +1,13 @@
 import React from 'react';
 import Features from '@/components/features';
 import Nav from '@/components/nav';
-import Mobile from '@/components/mobile';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-
 import s1 from '../../public/kitchen.jpg'
 import Testimonials from '@/components/testimonials';
 import Carousel from '@/components/carousel';
 import Questions from '@/components/questions';
+import PicBanner from '@/components/picBanner';
 
 
 const page = () => {
@@ -20,9 +19,10 @@ const page = () => {
       <Features />
       <Carousel />
       <Testimonials />
+      <PicBanner />
       <Questions/>
       <Footer />
-      <Mobile />
+      
       
     </div>
 

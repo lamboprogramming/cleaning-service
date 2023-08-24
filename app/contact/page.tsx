@@ -4,13 +4,24 @@ import Image from 'next/image';
 import Nav from '@/components/nav';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import Mobile from '@/components/mobile';
+import Testimonials from '@/components/testimonials';
+import ImgBanner from '@/components/imgBanner';
 
 const page = () => {
   return (
     <>
     <Nav />
-    <Header />
+            {/* Heading */}
+      <section className="bg-slate-100">
+      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
+        <div className="max-w-screen-lg text-lg text-gray-900 lg:text-xl ">
+          <h2 className="mb-6 text-4xl font-bold leading-10 tracking-tight text-gray-900 sm:text-5xl ">Excellence in Customer Service is Our Commitment to You</h2>
+          
+          <p className="mb-4 font-medium"> At Champion Cleaning, we take pride in our unwavering dedication to prompt and responsive customer service, ensuring your needs are met with efficiency and care.</p>
+      
+      </div>
+      </div>
+      </section>
 
     <div className='container mt-12 mb-8'>
      
@@ -19,25 +30,29 @@ const page = () => {
     <div className="grid gap-6 mb-6 md:grid-cols-2">
         <div>
             <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">First name</label>
-            <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="Jane" required/>
+            <input type="text" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="Jane" required/>
         </div>
         <div>
             <label htmlFor="last_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Last name</label>
-            <input type="text" id="last_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="Doe" required/>
+            <input type="text" id="last_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="Doe" required/>
+        </div>
+        <div>
+            <label htmlFor="last_name" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Address</label>
+            <input type="text" id="last_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="123 Main Street" required/>
         </div>
         <div>
             <label htmlFor="company" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Zip code</label>
-            <input type="text" id="company" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="92124" required/>
+            <input type="text" id="company" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="92124" required/>
         </div>  
         <div>
             <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Phone number</label>
-            <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="619-000-0000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
+            <input type="tel" id="phone" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="619-000-0000" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required/>
         </div>
 
     </div>
     <div className="mb-6">
         <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Email address</label>
-        <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5 " placeholder="john.doe@company.com" required/>
+        <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5 " placeholder="john.doe@company.com" required/>
     </div> 
 
     {/* email */}
@@ -58,8 +73,8 @@ const page = () => {
 
     
     <div className="mb-6">
-        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Type of Cleaning Service</label>
-        <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5" required>
+        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Type of service</label>
+        <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
             <option value="" disabled>Select type of cleaning service</option>
             <option value="standard">Standard / Deep Clean</option>
             <option value="deep">Residential / Commercial Clean</option>
@@ -72,8 +87,8 @@ const page = () => {
     </div>
    
     <div className="mb-6">
-        <label htmlFor="bedrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Number of Bedrooms</label>
-        <select id="bedrooms" name="bedrooms" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5" required>
+        <label htmlFor="bedrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Number of bedrooms</label>
+        <select id="bedrooms" name="bedrooms" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
             <option value="" disabled>Select number of bedrooms</option>
             <option value="0">Bedroom not included</option>
             <option value="1">1 Bedroom</option>
@@ -84,8 +99,8 @@ const page = () => {
         </select>
     </div>
     <div className="mb-6">
-        <label htmlFor="bathrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Number of Bathrooms</label>
-        <select id="bathrooms" name="bathrooms" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-yellow-200 focus:border-yellow-200 block w-full p-2.5" required>
+        <label htmlFor="bathrooms" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Number of bathrooms</label>
+        <select id="bathrooms" name="bathrooms" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
             <option value="" disabled>Select number of bathrooms</option>
             <option value="0">Bathroom not included</option>
             <option value="1">1 Bathroom</option>
@@ -95,6 +110,10 @@ const page = () => {
             <option value="3">3 Bathrooms</option>
         </select>
     </div>
+    <div className="mb-6">
+    <label htmlFor="comments" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Additional Comments or Requests</label>
+    <textarea id="comments" name="comments"  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm sm:text-lg rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" rows="4" placeholder="Feel free to share any specific requirements or preferences here."></textarea>
+</div>
 
     <div className="flex items-start mb-6">
         <div className="flex items-center h-5">
@@ -102,15 +121,17 @@ const page = () => {
         </div>
         <label htmlFor="remember" className="ml-2 text-sm font-medium text-gray-900 sm:text-lg ">I agree with the <a href="#" className="text-gray-700 hover:underline ">terms and conditions</a>.</label>
     </div>
-    <button type="submit" className="text-gray-700 bg-yellow-100 hover:bg-yellow-200 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:text-lg  w-full sm:w-auto px-8 py-2.5 text-center ">Submit</button>
+    <button type="submit" className="text-gray-700 bg-slate-100 hover:bg-slate-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm sm:text-lg  w-full sm:w-auto px-8 py-2.5 text-center ">Submit</button>
     </form>
 
 
 
 
     </div>
+    <ImgBanner />
+    <Testimonials />
     <Footer />
-    <Mobile />
+    
     </>
   );
 }
