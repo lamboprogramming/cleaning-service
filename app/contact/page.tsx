@@ -15,7 +15,7 @@ const page = () => {
       <section className="bg-slate-100">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
         <div className="max-w-screen-lg text-lg text-gray-900 lg:text-xl ">
-          <h2 className="mb-6 text-4xl font-bold leading-10 tracking-tight text-gray-900 sm:text-5xl ">Excellence in Customer Service is Our Commitment to You</h2>
+          <h2 className="mb-6 text-4xl font-bold leading-10 tracking-tight text-gray-900 sm:text-5xl ">Excellence in customer service is our commitment to you</h2>
           
           <p className="mb-4 font-medium"> At Champion Cleaning, we take pride in our unwavering dedication to prompt and responsive customer service, ensuring your needs are met with efficiency and care.</p>
       
@@ -81,8 +81,16 @@ const page = () => {
             <option value="move_in_out">Move In / Move Out</option>
             <option value="office">Airbnb / Rental Property Clean</option>
             <option value="commercial">Outdoor / Patio Clean</option>
-            <option value="special">Recurring Clean</option>
-            <option value="special">One Time Clean</option>
+        </select>
+    </div>
+    <div className="mb-6">
+        <label htmlFor="cleaning_service" className="block mb-2 text-sm font-medium text-gray-900 sm:text-lg ">Recurring or One Time</label>
+        <select id="cleaning_service" name="cleaning_service" className="bg-gray-50 border border-gray-300 text-gray-500 text-sm sm:text-lg  rounded-lg focus:ring-slate-100 focus:border-slate-100 block w-full p-2.5" required>
+            <option value="" disabled>Select one</option>
+            <option value="standard">One Time Clean</option>
+            <option value="deep">Weekly</option>
+            <option value="move_in_out">Bi-weekly</option>
+            <option value="office">Monthly</option>
         </select>
     </div>
    
@@ -93,9 +101,8 @@ const page = () => {
             <option value="0">Bedroom not included</option>
             <option value="1">1 Bedroom</option>
             <option value="2">2 Bedrooms</option>
-            <option value="3">3 Bedrooms</option>
-            <option value="4">4 Bedrooms</option>
-            <option value="5">5 Bedrooms</option>
+            <option value="3">3+ Bedrooms</option>
+           
         </select>
     </div>
     <div className="mb-6">
@@ -106,8 +113,8 @@ const page = () => {
             <option value="1">1 Bathroom</option>
             <option value="1.5">1.5 Bathrooms</option>
             <option value="2">2 Bathrooms</option>
-            <option value="2.5">2.5 Bathrooms</option>
-            <option value="3">3 Bathrooms</option>
+            <option value="2.5">2+ Bathrooms</option>
+          
         </select>
     </div>
     <div className="mb-6">

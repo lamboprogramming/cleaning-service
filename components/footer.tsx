@@ -6,11 +6,11 @@ import Socials from './socials';
 
 const footer = () => {
   return (
-    <>
+    <div className="">
            {/* Footer */}
-    <footer className="mt-2 mb-2 bg-white">
+    <footer className="bg-white ">
         
-        <div className="max-w-screen-xl mx-auto text-center">
+        <div className="max-w-screen-xl pt-8 mx-auto mb-4 text-center">
             <a href="#" className="flex items-center justify-center text-2xl font-semibold text-black ">
            {/* <Image src={} /> */}
           Champion Cleaning
@@ -39,7 +39,7 @@ const footer = () => {
         <span className="text-sm text-black sm:text-center">© 2023-2024 <a href="/" className="hover:underline">Champion Cleaning</a>. All Rights Reserved.</span>
         </div>
     </footer>
-    </>
+    </div>
   );
 }
 

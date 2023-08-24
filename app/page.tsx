@@ -13,6 +13,7 @@ import PicBanner from '@/components/picBanner'
 
 export default function Home() {
   return (
+    <>
     <div className="bg-slate-50">
     
       <Nav />
@@ -22,8 +23,8 @@ export default function Home() {
       <PicBanner />
       <Questions/>
       <Footer />
-   
     </div>
+    </>
   )
  
 }
