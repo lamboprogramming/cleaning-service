@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Champion from '../public/Champion.png'
+import logo from '../public/logo.png'
 import Socials from './socials';
 
 const footer = () => {
@@ -12,8 +12,7 @@ const footer = () => {
         
         <div className="max-w-screen-xl pt-8 mx-auto mb-4 text-center">
             <a href="#" className="flex items-center justify-center text-2xl font-semibold text-black ">
-           {/* <Image src={} /> */}
-          Champion Cleaning
+            <Image src={logo} className="w-36 " alt="Cleaning Logo" />
             </a>
             <Socials />
         <ul className="flex flex-wrap items-center justify-center mt-2 mb-2 text-black ">

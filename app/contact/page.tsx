@@ -1,10 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
 import Nav from '@/components/nav';
-import Header from '@/components/header';
 import Footer from '@/components/footer';
-import ImgBanner from '@/components/imgBanner';
+
 
 const page = () => {
   return (
@@ -134,7 +131,7 @@ const page = () => {
 
 
     </div>
-    <ImgBanner />
+    
     <Footer />
     
     </>

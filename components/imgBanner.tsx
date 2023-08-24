@@ -13,18 +13,12 @@ const imgBanner = () => {
        <div>
       <div className="relative block group">
   <div className="relative h-[350px] sm:h-[450px]">
-    <Image
-      priority
-      src={clean}
-      alt=""
-      className="absolute inset-0 object-cover w-full h-full opacity-100 group-hover:opacity-0"
-      
-    />
 
     <Image
       src={clean3}
+      priority
       alt=""
-      className="absolute inset-0 object-cover w-full h-full opacity-0 group-hover:opacity-100"
+      className="absolute object-cover w-full h-full "
      
     />
   </div>

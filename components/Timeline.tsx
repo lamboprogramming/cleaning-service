@@ -98,7 +98,7 @@ const [showMore, setShowMore] = useState(false);
                 <div className="hidden w-full h-2 sm:flex "></div>
             </div>
             <div className="mt-3 sm:pr-8">
-                <h3 className="text-lg font-semibold text-gray-900">Affording Prices</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Affordable Pricing</h3>
 
                 {/* Initial part of the text */}
                 <div className="mt-4 text-base font-normal text-gray-500 dark:text-gray-400">

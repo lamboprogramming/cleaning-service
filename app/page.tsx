@@ -15,7 +15,7 @@ import Carousel from '@/components/carousel'
 export default function Home() {
   return (
     <>
-    <div className="bg-slate-50">
+    <div className="">
     
       <Nav />
       <Bg />
