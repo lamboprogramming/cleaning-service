@@ -5,6 +5,7 @@ import Timeline from '@/components/Timeline'
 import Questions from '@/components/questions'
 import ImgBanner from '@/components/imgBanner'
 import PicBanner from '@/components/picBanner'
+import Carousel from '@/components/carousel'
 
 
 
@@ -20,7 +21,7 @@ export default function Home() {
       <Bg />
       <ImgBanner />
       <Timeline />
-      <PicBanner />
+      <Carousel />
       <Questions/>
       <Footer />
     </div>

@@ -1,48 +1,40 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import clean2 from '../public/clean5.jpg'
-import clean3 from '../public/kitchen.jpg'
+import clean1 from '../public/services/s1.jpg'
+import clean2 from '../public/services/s2.jpg'
+import clean3 from '../public/services/s4.jpg'
+import clean4 from '../public/services/s8.jpg'
+import clean5 from '../public/services/s9.jpg'
+import clean6 from '../public/services/s10.jpg'
 
 const carousel = () => {
   return (
     <div>
-<div className="">
+
+
+<div className="grid grid-cols-2 gap-2 p-2 md:grid-cols-3">
         <div>
-       {/* Image & Services */}
-       <div>
-      <div className="relative block group">
-  <div className="relative h-[350px] sm:h-[450px]">
-    <Image
-      priority
-      src={clean3}
-      alt=""
-      className="absolute inset-0 object-cover w-full h-full opacity-100 group-hover:opacity-0"
-      
-    />
-
-    <Image
-      src={clean2}
-      alt=""
-      className="absolute inset-0 object-cover w-full h-full opacity-0 group-hover:opacity-100"
-     
-    />
-  </div>
-
-  {/* <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-
-  <Link href='/services'>
-    <span
-      className="inline-block px-5 py-3 mt-3 text-sm font-medium tracking-wide text-white uppercase bg-black rounded-xl"
-    >
-      View Our Services
-    </span>
-    </Link>
-  </div> */}
+            <Image className="h-auto max-w-full rounded-lg" src={clean6} alt=""/>
+        </div>
+        <div>
+            <Image className="h-auto max-w-full rounded-lg" src={clean2} alt=""/>
+        </div>
+        <div>
+            <Image className="h-auto max-w-full rounded-lg" src={clean3} alt=""/>
+        </div>
+        <div>
+            <Image className="h-auto max-w-full rounded-lg" src={clean5} alt=""/>
+        </div>
+        <div>
+            <Image className="h-auto max-w-full rounded-lg" src={clean1} alt=""/>
+        </div>
+        <div>
+            <Image className="h-auto max-w-full rounded-lg" src={clean4} alt=""/>
+        </div>
     </div>
-      </div>
-  </div>
-    </div>
+
+
     </div>
   );
 }
