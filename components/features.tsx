@@ -22,7 +22,7 @@ const Features = () => {
       </div>
 {/* Features */}
 <div className='flex items-center pt-4 tracking-wider justify-evenly rounded-xl'>
-  <div className='flex flex-wrap '>
+  <div className='flex flex-wrap justify-center'>
     
     {/* Div 1*/}
   <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl cursor-pointer font-medium border-2 border-gray-900 bg-yellow-50 hover:bg-black/10'>
