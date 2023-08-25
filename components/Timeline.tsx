@@ -129,8 +129,6 @@ const [showMore, setShowMore] = useState(false);
             </div>
     </li>
 
-   
-  
 </ol>
 
     </div>

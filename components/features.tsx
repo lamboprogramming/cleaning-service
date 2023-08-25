@@ -21,8 +21,8 @@ const Features = () => {
         <h2>Services</h2>
       </div>
 {/* Features */}
-<div className='flex items-center pt-4 tracking-wider rounded-xl'>
-  <div className='flex flex-wrap items-start justify-evenly '>
+<div className='flex items-center pt-4 tracking-wider justify-evenly rounded-xl'>
+  <div className='flex flex-wrap '>
     
     {/* Div 1*/}
   <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl cursor-pointer font-medium border-2 border-gray-900 bg-yellow-50 hover:bg-black/10'>
@@ -81,16 +81,7 @@ const Features = () => {
     </Link>
   </div>
   
-    {/* Div 6*/}
-  <div className='flex h-[200px] sm:w-[300px] p-2 shadow-md m-2 justify-center  rounded-xl font-medium border-2 border-gray-900 bg-yellow-50 hover:bg-black/10'>
-  <Link legacyBehavior href="/services/service6">
-    <p className='flex flex-col items-center cursor-pointer'>
-      <Image src={vacuum} className='h-[65%] mb-2' alt="/" />
-      <span className='text-xl text-gray-700'>Recurring / One Time</span>
-      <span className='text-xl text-gray-700'>Clean</span>
-    </p>
-    </Link>
-  </div>
+
 
 
 
