@@ -15,7 +15,7 @@ const Nav = () => {
     <nav className="bg-white border-gray-200">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
         <Link href="/" className="flex items-center">
-          <Image src={logo} className="mr-3 w-36 " alt="Cleaning Logo" />
+          <Image src={logo} className="mr-3 transition duration-200 cursor-pointer w-36 sm:hover:scale-125" alt="Cleaning Logo" />
         </Link>
         <button
           onClick={toggleNav}
