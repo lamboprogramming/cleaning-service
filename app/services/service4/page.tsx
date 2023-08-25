@@ -254,63 +254,56 @@ const page = () => {
   </div>
   <div className='flex flex-col p-8 md:items-center'>
    <h1 className="flex pb-4 font-sans text-2xl font-semibold tracking-normal text-blue-gray-900">
-     Other Areas
+     Laundry Service
    </h1>
    <ul role="list" className="mb-8 space-y-4 text-gray-500 dark:text-gray-400">
                <li className="flex items-center space-x-2">
                    <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                    </svg>
-                   <span className="leading-tight">Dust and wipe down all surfaces, including furniture, electronics, and decorations.</span>
+                   <span className="leading-tight">Thorough cleaning and laundering of all bed linens, including sheets, pillowcases, and duvet covers</span>
                </li>
                
                <li className="flex items-center space-x-2">
                    <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                    </svg>
-                   <span className="leading-tight">Clean mirrors and glass surfaces.</span>
+                   <span className="leading-tight">Washing and folding of towels, ensuring they are fresh and ready for guest use</span>
                </li>
                
                <li className="flex items-center space-x-2">
                    <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                    </svg>
-                   <span className="leading-tight">Floors and upholstery vacuumed and given extra attention.</span>
+                   <span className="leading-tight"> Laundering duvets, comforters, and blankets to maintain a cozy and sanitized sleeping environment.</span>
                </li>
                
                <li className="flex items-center space-x-2">
                    <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                    </svg>
-                   <span className="leading-tight">Vacuum carpets or clean hardwood floors.</span>
+                   <span className="leading-tight"> Cleaning and fluffing pillows to provide guests with a comfortable and welcoming sleep experience.</span>
                </li>
                <li className="flex items-center space-x-2">
                    <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                    </svg>
-                   <span className="leading-tight">Wipe down and sanitize remote controls and other electronics.</span>
+                   <span className="leading-tight">Regular washing or dry cleaning of curtains and drapes to remove dust and allergens.</span>
                </li>
                <li className="flex items-center space-x-2">
                    <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                    </svg>
-                   <span className="leading-tight">Clean and sanitize light switches and doorknobs.</span>
+                   <span className="leading-tight">Providing laundry services for guest clothes left behind, upon request.</span>
                </li>
                <li className="flex items-center space-x-2">
                    <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                        <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
                    </svg>
-                   <span className="leading-tight">Clean interior and exterior of cabinets or storage units.</span>
+                   <span className="leading-tight">Identifying and storing personal guest items left behind.</span>
                </li>
-               <li className="flex items-center space-x-2">
-                   <svg className="flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-                   </svg>
-                   <span className="leading-tight">Empty and disinfect trash bins.</span>
-               </li>
-               
-              
-               
+            
+                  
            </ul>
   </div>
    <Footer />
