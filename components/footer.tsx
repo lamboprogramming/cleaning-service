@@ -27,7 +27,7 @@ const footer = () => {
           </li>
      
         </ul>
-        <span className="text-sm text-black sm:text-center">© 2023-2024 <a href="/" className="hover:underline">Champion Cleaning</a>. All Rights Reserved.</span>
+        <span className="text-sm text-black sm:text-center">© 2023-2024 <a href="/" className="hover:underline">Gillespie Holding Group</a>. All Rights Reserved.</span>
         </div>
     </footer>
     </div>
